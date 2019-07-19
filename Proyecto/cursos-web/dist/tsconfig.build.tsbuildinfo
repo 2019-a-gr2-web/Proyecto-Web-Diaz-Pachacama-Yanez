@@ -1070,8 +1070,8 @@
         "signature": "d8f4cb0109c1b399d657807fd6af504d74a9300325e0fc915abdbf658b464a97"
       },
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": {
-        "version": "d3c7f25d1f5490d925b48b15431b6bfd67465d99e6cc3e55ec4dd14bcc103e4e",
-        "signature": "9acdc1328b07226fc5a428b9db004418e080abb8febaf8e556dc2796092848fc"
+        "version": "8e393d326eaf9782d803761e7fb8396b9fa9d9674de99f45bfe610dc265aaa4a",
+        "signature": "1b9f1ad1283e1fc20ae3a8095438a0f137ec7c076933f51afabbde5ef5ebc76f"
       },
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": {
         "version": "37350aa03991dfad308444531443272a47140d86cb0b0777832d21c62856ebd9",
@@ -10278,7 +10278,6 @@
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
-      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/constants.d.ts",
@@ -10337,7 +10336,8 @@
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/json5/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts",
-      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts"
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts"
     ]
   },
   "version": "3.4.3"

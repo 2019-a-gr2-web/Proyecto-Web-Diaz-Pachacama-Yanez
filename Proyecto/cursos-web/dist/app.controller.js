@@ -18,23 +18,28 @@ let AppController = class AppController {
     constructor(appService) {
         this.appService = appService;
     }
-    menu(res) {
-        res.render('menu');
-    }
     registro(res) {
         res.render('registro');
     }
     iniciarSesion(res) {
         res.render('iniciarSesion');
     }
+    bienvenida(res) {
+        res.render('bienvenida');
+    }
+    cursosDisponibles(res) {
+        res.render('cursosDisponibles');
+    }
+    buscarCursos(res) {
+        res.render('buscarCursos');
+    }
+    verCurso(res) {
+        res.render('verCurso');
+    }
+    misCursos(res) {
+        res.render('misCursos');
+    }
 };
-__decorate([
-    common_1.Get('/menu'),
-    __param(0, common_1.Res()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "menu", null);
 __decorate([
     common_1.Get('/registro'),
     __param(0, common_1.Res()),
@@ -49,6 +54,41 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "iniciarSesion", null);
+__decorate([
+    common_1.Get('/bienvenida'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "bienvenida", null);
+__decorate([
+    common_1.Get('/cursosDisponibles'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "cursosDisponibles", null);
+__decorate([
+    common_1.Get('/buscarCursos'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "buscarCursos", null);
+__decorate([
+    common_1.Get('/verCurso'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "verCurso", null);
+__decorate([
+    common_1.Get('/misCursos'),
+    __param(0, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "misCursos", null);
 AppController = __decorate([
     common_1.Controller('/proyecto'),
     __metadata("design:paramtypes", [app_service_1.AppService])
