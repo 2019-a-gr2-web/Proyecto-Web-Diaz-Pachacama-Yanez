@@ -1070,8 +1070,8 @@
         "signature": "d8f4cb0109c1b399d657807fd6af504d74a9300325e0fc915abdbf658b464a97"
       },
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": {
-        "version": "3469c5aa62e1ba5b183d9bb9d40193e91aa761fc5734d332650b0bd49c346266",
-        "signature": "3293b0d1d6a7f902316e164fcf36ae099f1bbb0224484586eaab30d9dea78d32"
+        "version": "d3c7f25d1f5490d925b48b15431b6bfd67465d99e6cc3e55ec4dd14bcc103e4e",
+        "signature": "9acdc1328b07226fc5a428b9db004418e080abb8febaf8e556dc2796092848fc"
       },
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": {
         "version": "37350aa03991dfad308444531443272a47140d86cb0b0777832d21c62856ebd9",
@@ -2217,9 +2217,77 @@
         "version": "2608cfd623840916e664e68c3dc5eb4347ccae822f808d899bf00e73cbab2bfe",
         "signature": "2608cfd623840916e664e68c3dc5eb4347ccae822f808d899bf00e73cbab2bfe"
       },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": {
+        "version": "cc0e17447fe6b14068adbde843ebcb7d72ddf0a9bfdd9a9666059fb92b10f69b",
+        "signature": "cc0e17447fe6b14068adbde843ebcb7d72ddf0a9bfdd9a9666059fb92b10f69b"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": {
+        "version": "ae225efad3e7c1f386142d5b92be14ca9da19b4472c79a4c419343d42c7e9ac9",
+        "signature": "ae225efad3e7c1f386142d5b92be14ca9da19b4472c79a4c419343d42c7e9ac9"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/index.d.ts": {
+        "version": "86bf2bfe29d0bc3fbc68e64c25ea6eab9bcb3c518ae941012ed75b1e87d391ae",
+        "signature": "86bf2bfe29d0bc3fbc68e64c25ea6eab9bcb3c518ae941012ed75b1e87d391ae"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": {
+        "version": "ac7c3185bc0acd10d01e47833c81b896c80c724e5c146f657791bc4748cc5cdc",
+        "signature": "ac7c3185bc0acd10d01e47833c81b896c80c724e5c146f657791bc4748cc5cdc"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/index.d.ts": {
+        "version": "68a330d1246e3f0ed055b931ab6f4f9505d7c2db0560515f68c722c06541dc0d",
+        "signature": "68a330d1246e3f0ed055b931ab6f4f9505d7c2db0560515f68c722c06541dc0d"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": {
+        "version": "6e9eaec149fef058b2f030d1ea1f64497606de98ee9e66f1d2373be36bdaea2b",
+        "signature": "6e9eaec149fef058b2f030d1ea1f64497606de98ee9e66f1d2373be36bdaea2b"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": {
+        "version": "6a013828e3333e21fde3a4d1c7da0c41e8ce0218a98ad8e71025c2d437a2458b",
+        "signature": "6a013828e3333e21fde3a4d1c7da0c41e8ce0218a98ad8e71025c2d437a2458b"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": {
+        "version": "fc1a967ceb559957a8fd153d364596d7c906440c401e9a1f0ef9cda62a92a937",
+        "signature": "fc1a967ceb559957a8fd153d364596d7c906440c401e9a1f0ef9cda62a92a937"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": {
+        "version": "fd09f594933708040bbab2ad98fdfd1f076209ff0d514cbc8ab50bc39f462619",
+        "signature": "fd09f594933708040bbab2ad98fdfd1f076209ff0d514cbc8ab50bc39f462619"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": {
+        "version": "fa445ead2f213f9631ba95a4305385b2d89ba7ec482c8d2660dbe44bd8863d02",
+        "signature": "fa445ead2f213f9631ba95a4305385b2d89ba7ec482c8d2660dbe44bd8863d02"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": {
+        "version": "4741b150be6852903a560f28e27c51c8b17e081c2b172117f1e2c2331520eb4a",
+        "signature": "4741b150be6852903a560f28e27c51c8b17e081c2b172117f1e2c2331520eb4a"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": {
+        "version": "d8c1697db4bb3234ff3f8481545284992f1516bc712421b81ee3ef3f226ae112",
+        "signature": "d8c1697db4bb3234ff3f8481545284992f1516bc712421b81ee3ef3f226ae112"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts": {
+        "version": "549adfb8fb51148eeb2c0659941b3a508988ee0b00f325fbaae7e96bc4b3e4c9",
+        "signature": "549adfb8fb51148eeb2c0659941b3a508988ee0b00f325fbaae7e96bc4b3e4c9"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts": {
+        "version": "e2c3c3ca3818d610599392a9431e60ec021c5d59262ecd616538484990f6e331",
+        "signature": "e2c3c3ca3818d610599392a9431e60ec021c5d59262ecd616538484990f6e331"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts": {
+        "version": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c",
+        "signature": "e3cd60be3c4f95c43420be67eaa21637585b7c1a8129f9b39983bbd294f9513c"
+      },
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts": {
-        "version": "3c8967198a459fe0868276c735fb4ecbe75c3ed2bbda02d4dcee787c5c448528",
+        "version": "b82147d2926ae27e89532b901350bf765eff067f555ef391f8ad5fb8e09872e3",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts": {
+        "version": "d9422bf2f3d2b4a02d901bd80370b6e58b4165e4bf488b99a3687c6eea721d27",
+        "signature": "d9422bf2f3d2b4a02d901bd80370b6e58b4165e4bf488b99a3687c6eea721d27"
+      },
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babylon/index.d.ts": {
+        "version": "e7ef01fb3213b1be13321648ac2612d60e9e2742e28fc2fcf68d27fb965a8d5c",
+        "signature": "e7ef01fb3213b1be13321648ac2612d60e9e2742e28fc2fcf68d27fb965a8d5c"
       },
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/connect/index.d.ts": {
         "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
@@ -5836,9 +5904,111 @@
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts": [
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/index.d.ts",
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/path.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babylon/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts",
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -9414,6 +9584,106 @@
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babylon/index.d.ts": [
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/connect/index.d.ts": [
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/http.d.ts",
         "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/index.d.ts",
@@ -9751,7 +10021,6 @@
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/utils/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
-      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/table/tablecolumn.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/common/objectliteral.d.ts",
@@ -10009,6 +10278,7 @@
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/constants.d.ts",
@@ -10037,7 +10307,24 @@
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/services/reflector.service.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/services/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/adapters/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/nest-express-application.interface.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/interfaces/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/multer-options.interface.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file-fields.interceptor.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/file.interceptor.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/files.interceptor.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interceptors/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/files-upload-module.interface.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/interfaces/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts",
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babylon/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/connect/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/body-parser/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/cookiejar/index.d.ts",
@@ -10050,7 +10337,7 @@
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/json5/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
       "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts",
-      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts"
+      "c:/users/angel/documents/epn/web/proyecto/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts"
     ]
   },
   "version": "3.4.3"
