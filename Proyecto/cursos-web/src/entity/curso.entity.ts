@@ -1,7 +1,7 @@
 import {Column, Entity, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
-import {profesorEntity} from "./profesor.entity";
 import {materiaEntity} from "./materia.entity";
 import {notasEntity} from "./notas.entity";
+import {usuarioEntity} from "./usuario.entity";
 
 @Entity('curso') // Nombre tabla
 export class cursoEntity {
@@ -30,8 +30,8 @@ export class cursoEntity {
     })
     fechaFin: Date;
 
-    @ManyToOne(type => profesorEntity, profesor => profesor.cursos)
-    profesorId: profesorEntity;
+    @ManyToOne(type => usuarioEntity, usuario => usuario.cursos)
+    usuarioId: usuarioEntity;
 
     @ManyToOne(type => materiaEntity, materia => materia.cursos)
     materiaId: materiaEntity;

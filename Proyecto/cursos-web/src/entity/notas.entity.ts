@@ -1,7 +1,6 @@
 import {Column, Entity, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
-import {rolEntity} from "./rol.entity";
 import {cursoEntity} from "./curso.entity";
-import {estudianteEntity} from "./estudiante.entity";
+import {usuarioEntity} from "./usuario.entity";
 
 @Entity('notas') // Nombre tabla
 export class notasEntity {
@@ -25,6 +24,6 @@ export class notasEntity {
     @ManyToOne(type => cursoEntity, curso => curso.notas)
     cursoId: cursoEntity;
 
-    @ManyToOne(type => estudianteEntity, estudiante => estudiante.notas)
-    estudianteId: estudianteEntity;
+    @ManyToOne(type => usuarioEntity, usuario => usuario.notas)
+    usuarioId: usuarioEntity;
 }
