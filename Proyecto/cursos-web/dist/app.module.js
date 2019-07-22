@@ -12,8 +12,6 @@ const app_service_1 = require("./app.service");
 const typeorm_1 = require("@nestjs/typeorm");
 const materia_entity_1 = require("./entity/materia.entity");
 const notas_entity_1 = require("./entity/notas.entity");
-const estudiante_entity_1 = require("./entity/estudiante.entity");
-const profesor_entity_1 = require("./entity/profesor.entity");
 const usuario_entity_1 = require("./entity/usuario.entity");
 const rol_entity_1 = require("./entity/rol.entity");
 const curso_entity_1 = require("./entity/curso.entity");
@@ -28,11 +26,11 @@ AppModule = __decorate([
                 username: 'root',
                 password: 'root',
                 database: 'proyecto',
-                entities: [materia_entity_1.materiaEntity, notas_entity_1.notasEntity, estudiante_entity_1.estudianteEntity, profesor_entity_1.profesorEntity, usuario_entity_1.usuarioEntity, rol_entity_1.rolEntity, curso_entity_1.cursoEntity],
+                entities: [materia_entity_1.materiaEntity, notas_entity_1.notasEntity, usuario_entity_1.usuarioEntity, rol_entity_1.rolEntity, curso_entity_1.cursoEntity],
                 synchronize: true,
                 dropSchema: false
             }), typeorm_1.TypeOrmModule.forFeature([
-                materia_entity_1.materiaEntity, notas_entity_1.notasEntity, estudiante_entity_1.estudianteEntity, profesor_entity_1.profesorEntity, usuario_entity_1.usuarioEntity, rol_entity_1.rolEntity, curso_entity_1.cursoEntity
+                materia_entity_1.materiaEntity, notas_entity_1.notasEntity, usuario_entity_1.usuarioEntity, rol_entity_1.rolEntity, curso_entity_1.cursoEntity
             ], 'default')],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],

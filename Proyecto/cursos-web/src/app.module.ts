@@ -4,8 +4,6 @@ import { AppService } from './app.service';
 import {TypeOrmModule} from "@nestjs/typeorm";
 import {materiaEntity} from "./entity/materia.entity";
 import {notasEntity} from "./entity/notas.entity";
-import {estudianteEntity} from "./entity/estudiante.entity";
-import {profesorEntity} from "./entity/profesor.entity";
 import {usuarioEntity} from "./entity/usuario.entity";
 import {rolEntity} from "./entity/rol.entity";
 import {cursoEntity} from "./entity/curso.entity";
@@ -18,12 +16,12 @@ import {cursoEntity} from "./entity/curso.entity";
     username: 'root',
     password: 'root',
     database: 'proyecto',
-    entities: [materiaEntity,notasEntity,estudianteEntity,profesorEntity,usuarioEntity,rolEntity,cursoEntity],
+    entities: [materiaEntity,notasEntity,usuarioEntity,rolEntity,cursoEntity],
     synchronize: true,
     dropSchema: false
   }), TypeOrmModule.forFeature(
       [
-        materiaEntity,notasEntity,estudianteEntity,profesorEntity,usuarioEntity,rolEntity,cursoEntity
+        materiaEntity,notasEntity,usuarioEntity,rolEntity,cursoEntity
       ],
       'default'
   )],

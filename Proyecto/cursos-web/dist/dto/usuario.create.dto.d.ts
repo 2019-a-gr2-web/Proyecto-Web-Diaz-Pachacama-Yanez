@@ -1,7 +1,9 @@
-import { rolEntity } from "../entity/rol.entity";
 export declare class UsuarioCreateDto {
-    idUsuario: number;
-    user: string;
+    id: number;
+    nombre: string;
+    direccion: string;
+    telefono: string;
+    email: string;
     password: string;
-    rolId: rolEntity;
+    rolId: number;
 }

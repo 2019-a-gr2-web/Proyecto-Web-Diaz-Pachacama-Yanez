@@ -1,8 +1,10 @@
 import { AppService } from './app.service';
+import { Usuario } from "./interfaces/usuario";
 export declare class AppController {
     private readonly appService;
     constructor(appService: AppService);
     registro(res: any): void;
+    registrarPost(usuario: Usuario, res: any): Promise<void>;
     iniciarSesion(res: any): void;
     bienvenida(res: any): void;
     cursosDisponibles(res: any): void;

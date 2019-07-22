@@ -10,18 +10,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const class_validator_1 = require("class-validator");
-const rol_entity_1 = require("../entity/rol.entity");
 class UsuarioCreateDto {
 }
 __decorate([
     class_validator_1.IsEmpty(),
     __metadata("design:type", Number)
-], UsuarioCreateDto.prototype, "idUsuario", void 0);
+], UsuarioCreateDto.prototype, "id", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
     class_validator_1.IsString(),
     __metadata("design:type", String)
-], UsuarioCreateDto.prototype, "user", void 0);
+], UsuarioCreateDto.prototype, "nombre", void 0);
+__decorate([
+    class_validator_1.IsNotEmpty(),
+    class_validator_1.IsString(),
+    __metadata("design:type", String)
+], UsuarioCreateDto.prototype, "direccion", void 0);
+__decorate([
+    class_validator_1.IsNotEmpty(),
+    class_validator_1.IsString(),
+    __metadata("design:type", String)
+], UsuarioCreateDto.prototype, "telefono", void 0);
+__decorate([
+    class_validator_1.IsNotEmpty(),
+    class_validator_1.IsString(),
+    __metadata("design:type", String)
+], UsuarioCreateDto.prototype, "email", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
     class_validator_1.IsString(),
@@ -30,7 +44,7 @@ __decorate([
 __decorate([
     class_validator_1.IsNumber(),
     class_validator_1.IsNotEmpty(),
-    __metadata("design:type", rol_entity_1.rolEntity)
+    __metadata("design:type", Number)
 ], UsuarioCreateDto.prototype, "rolId", void 0);
 exports.UsuarioCreateDto = UsuarioCreateDto;
 //# sourceMappingURL=usuario.create.dto.js.map

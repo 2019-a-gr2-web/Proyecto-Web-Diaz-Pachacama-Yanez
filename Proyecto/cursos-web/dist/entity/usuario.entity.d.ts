@@ -1,10 +1,14 @@
 import { rolEntity } from "./rol.entity";
-import { profesorEntity } from "./profesor.entity";
+import { cursoEntity } from "./curso.entity";
+import { notasEntity } from "./notas.entity";
 export declare class usuarioEntity {
-    idUsuario: number;
-    user: string;
+    id: number;
+    nombre: string;
+    direccion: string;
+    telefono: string;
+    email: string;
     password: string;
     rolId: rolEntity;
-    profesores: profesorEntity[];
-    estudiantes: profesorEntity[];
+    cursos: cursoEntity[];
+    notas: notasEntity[];
 }

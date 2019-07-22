@@ -1065,21 +1065,9 @@
         "version": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc",
         "signature": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc"
       },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts": {
-        "version": "e156ab0147a67cc4837a381866d04232f3c51d3bd8c0189f86805144dd8c3d8c",
-        "signature": "e156ab0147a67cc4837a381866d04232f3c51d3bd8c0189f86805144dd8c3d8c"
-      },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts": {
-        "version": "a26eaa910729fef19768b41fe3e6a0905acaa5f67ac792bbf78a5ecb022077a7",
-        "signature": "3390017d2728d67d86792e76940430164927dfde0dbe008d50de9286cc4ceead"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": {
-        "version": "e7d79cc5ca8b450f55cb619ae6a89e30d9d339728965b024a62865cc4f333ba0",
-        "signature": "4e680d42ac92b70f5e3b27d219ca0bbf31ad2e247190ff235efa8c17d95b52c3"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": {
-        "version": "8e393d326eaf9782d803761e7fb8396b9fa9d9674de99f45bfe610dc265aaa4a",
-        "signature": "1b9f1ad1283e1fc20ae3a8095438a0f137ec7c076933f51afabbde5ef5ebc76f"
+        "version": "f9d052f0d7b09a6409952600cdccc237a27c416fc2d7c1467199c9947c6941bb",
+        "signature": "c43a0124cd849de69a4175ed67fb4abf242acf1330f6775329851585600a626d"
       },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": {
         "version": "37350aa03991dfad308444531443272a47140d86cb0b0777832d21c62856ebd9",
@@ -2085,32 +2073,104 @@
         "version": "9d53b09b011e392ab1cc3190e405bf439d15e0efc9fdd2f0c0464ee7d7f214a2",
         "signature": "4cdeb0d7664146e9e60121904bce234270e0725660de80e7f4266ae02a798a53"
       },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts": {
-        "version": "a94cd8749baaf68c3c7b50ff40e7920ef8af28f90ab3fc305f41f318619ca55e",
-        "signature": "8e3ed1744600b96c50e9d3d22d204c6cd645e0f5c80ae118775c9f8720f37084"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts": {
-        "version": "d26957fef31b98def503b356146c6c04fec2d047862c083356d2bb4e46c51d08",
-        "signature": "e4b12176e536d3be84388814fd7378aa395e9a9ef6f70e6f6aae1b80fbe6c186"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts": {
-        "version": "ce9d265be9a6eda75d92bca6cc8bbfa46bccc9cddb998d2a4405a269a5068a2c",
-        "signature": "f4f0a0528c6cf3a036b4de1ebe1f9cdc7e44dc009950c314dbbc49cdff718e29"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts": {
-        "version": "8acfa081d4588e10a3923e6d34ab4d0ce2329403eb2c213d2be004704f355bd8",
-        "signature": "8b49060f957a16a68766cf83d5cb69223ff6a0e999853a14324e04102fd6ea76"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": {
-        "version": "b1490599d83ee9a3c188ce5451d1580870ef06ca08304291899f48a3547d6836",
-        "signature": "0d96013a8eefb8dd09c7b91a9c7150422af8a8d261af35976f072e85f8867bc7"
-      },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts": {
         "version": "73584a18b7d459255b0e6a940248417141183ad5b8345fcb7bc9160b0959a009",
         "signature": "2125657bf52b746d1e74fbe12cdcfc11c0577a5443731d58202df116b9335982"
       },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts": {
+        "version": "c956ba2a815c614bfbab0cfdb20273d60ea5ed505a16e6689158cf10f45efee6",
+        "signature": "fe46ea1590b8faade70ed832d85e64fd5537f9c8fec7ac25322da9a5ac98ebbe"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": {
+        "version": "7445c9cb3cab67b615c77fad0b7886931bb30939471ba91178584382a7da1953",
+        "signature": "f88a8a26fe2b5f83ea38e6b635b02173dc3111b8278b10737e98228f3d74d4a7"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts": {
+        "version": "65efcf9cce09e8a869d6a5529e48a7301b5170d12617d77c9e1c50f51217ff67",
+        "signature": "f0bea11b9f030d7cac3e08ae58195eec6a5492db2a8b4cec10afad36ec74fb3c"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": {
+        "version": "719ba846855dfa74ed585dd45d2f4492441871c00c5f54d73b69ab6ed7da878c",
+        "signature": "7df3e8e6ecfbdf3ebbfbb57b9c5b7e067df969ed4e44e2f3a27ae3c2371f77f9"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts": {
+        "version": "cf03a9730c9f35f0427dceb1e5441d60cc416cc945dcf72f89bc1280eec1f798",
+        "signature": "cf03a9730c9f35f0427dceb1e5441d60cc416cc945dcf72f89bc1280eec1f798"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts": {
+        "version": "d1dc7c886726854cd1f81dbe1bd43d9bcad40c17f4ee42b16fa87a424f256ebb",
+        "signature": "d1dc7c886726854cd1f81dbe1bd43d9bcad40c17f4ee42b16fa87a424f256ebb"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts": {
+        "version": "e3ade48fecbde1ee782614ec777e32bf4edb78f9496ee92788b0ffbcbc0057f8",
+        "signature": "e3ade48fecbde1ee782614ec777e32bf4edb78f9496ee92788b0ffbcbc0057f8"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts": {
+        "version": "4743865534f105387e316eb554450fda0af43e768d473b106dacc8d1d00df4bc",
+        "signature": "4743865534f105387e316eb554450fda0af43e768d473b106dacc8d1d00df4bc"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts": {
+        "version": "b6347018deca7486dfe4f8b7cb7f82b5f635871ce4a92113a0adeb8db6dfd67b",
+        "signature": "b6347018deca7486dfe4f8b7cb7f82b5f635871ce4a92113a0adeb8db6dfd67b"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts": {
+        "version": "2ce7e5cfb4ab1fcf287a3d412677cd6ca9d2c557fcf973f2d001b02b95749942",
+        "signature": "2ce7e5cfb4ab1fcf287a3d412677cd6ca9d2c557fcf973f2d001b02b95749942"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts": {
+        "version": "e840f6eb66691c7ff0a3bb0a28c9a129689f550a8d102150818552b471af753b",
+        "signature": "e840f6eb66691c7ff0a3bb0a28c9a129689f550a8d102150818552b471af753b"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts": {
+        "version": "0bcdd320d6bc69951aa1fc09eb13e71eefa8dd5037d7b54f9af0b7dabbd8e0ff",
+        "signature": "0bcdd320d6bc69951aa1fc09eb13e71eefa8dd5037d7b54f9af0b7dabbd8e0ff"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": {
+        "version": "f8816939737b73305a2aad092f808e0d5d9443a13356407ce8af204d4ee53d82",
+        "signature": "f8816939737b73305a2aad092f808e0d5d9443a13356407ce8af204d4ee53d82"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts": {
+        "version": "7ba4b3c2e5a96270c20c95f3914a293f91e3adb0496738b2e450767eb90b8acd",
+        "signature": "7ba4b3c2e5a96270c20c95f3914a293f91e3adb0496738b2e450767eb90b8acd"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts": {
+        "version": "216bb574654351469b377871dbeef2149f46049444a4caad46e19e2129902c42",
+        "signature": "216bb574654351469b377871dbeef2149f46049444a4caad46e19e2129902c42"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts": {
+        "version": "09a65eda4c358b2ba9cd2a1ce761dd4b9e88b2f3c52bdd9308dbdc9078efcdc5",
+        "signature": "09a65eda4c358b2ba9cd2a1ce761dd4b9e88b2f3c52bdd9308dbdc9078efcdc5"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts": {
+        "version": "d0496f533a93aca10dcd7b05918e278d0c2043ae7102629f6ae090ff4708d5a7",
+        "signature": "d0496f533a93aca10dcd7b05918e278d0c2043ae7102629f6ae090ff4708d5a7"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts": {
+        "version": "212e9b2b29ecc7c705d7d8c4381d997a2cc0bea51bf6120be664fdf8dc9bd963",
+        "signature": "212e9b2b29ecc7c705d7d8c4381d997a2cc0bea51bf6120be664fdf8dc9bd963"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts": {
+        "version": "055afe90588632398154f1f14ba6d7679ce486e9348beca5b0380f31693c4c47",
+        "signature": "055afe90588632398154f1f14ba6d7679ce486e9348beca5b0380f31693c4c47"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts": {
+        "version": "d3a34f5ed777854e0f878171feac096920fb02fafe468d1f58df03a26d232da2",
+        "signature": "d3a34f5ed777854e0f878171feac096920fb02fafe468d1f58df03a26d232da2"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts": {
+        "version": "9ab4ca668d02db34965308fd7052820741ef0c260bdf9ac15c3c841dcbe47de6",
+        "signature": "9ab4ca668d02db34965308fd7052820741ef0c260bdf9ac15c3c841dcbe47de6"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts": {
+        "version": "751390d0459d8df9839a5ab4a53d5548b84d257c16c8401d8a79f09825e23f24",
+        "signature": "23c34e6db0053d4a19a757d44ef39e6e01265b87b4b3d2d50f3fdf09a0a4649b"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": {
+        "version": "92578f75097ccfa11068e9abfbe62ae56863810a457e54d25efb6dd970a0c016",
+        "signature": "6af7dd1571f001f6e8f7034a811702ff60665b821644dc748c7dff1fb3df717c"
+      },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts": {
-        "version": "ee15008dc09bd3a9713ae0fab99c7bf0178c0b81ad599bd5a4a37fcf1383c26f",
+        "version": "aaf09cc11a143ac8c57cb1d90b95a0507bfc460db30cfc4d1591d82b4156b57b",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88"
       },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -2289,85 +2349,9 @@
         "version": "b82147d2926ae27e89532b901350bf765eff067f555ef391f8ad5fb8e09872e3",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts": {
-        "version": "cf03a9730c9f35f0427dceb1e5441d60cc416cc945dcf72f89bc1280eec1f798",
-        "signature": "cf03a9730c9f35f0427dceb1e5441d60cc416cc945dcf72f89bc1280eec1f798"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts": {
-        "version": "d1dc7c886726854cd1f81dbe1bd43d9bcad40c17f4ee42b16fa87a424f256ebb",
-        "signature": "d1dc7c886726854cd1f81dbe1bd43d9bcad40c17f4ee42b16fa87a424f256ebb"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts": {
-        "version": "e3ade48fecbde1ee782614ec777e32bf4edb78f9496ee92788b0ffbcbc0057f8",
-        "signature": "e3ade48fecbde1ee782614ec777e32bf4edb78f9496ee92788b0ffbcbc0057f8"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts": {
-        "version": "4743865534f105387e316eb554450fda0af43e768d473b106dacc8d1d00df4bc",
-        "signature": "4743865534f105387e316eb554450fda0af43e768d473b106dacc8d1d00df4bc"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts": {
-        "version": "b6347018deca7486dfe4f8b7cb7f82b5f635871ce4a92113a0adeb8db6dfd67b",
-        "signature": "b6347018deca7486dfe4f8b7cb7f82b5f635871ce4a92113a0adeb8db6dfd67b"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts": {
-        "version": "2ce7e5cfb4ab1fcf287a3d412677cd6ca9d2c557fcf973f2d001b02b95749942",
-        "signature": "2ce7e5cfb4ab1fcf287a3d412677cd6ca9d2c557fcf973f2d001b02b95749942"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts": {
-        "version": "e840f6eb66691c7ff0a3bb0a28c9a129689f550a8d102150818552b471af753b",
-        "signature": "e840f6eb66691c7ff0a3bb0a28c9a129689f550a8d102150818552b471af753b"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts": {
-        "version": "0bcdd320d6bc69951aa1fc09eb13e71eefa8dd5037d7b54f9af0b7dabbd8e0ff",
-        "signature": "0bcdd320d6bc69951aa1fc09eb13e71eefa8dd5037d7b54f9af0b7dabbd8e0ff"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": {
-        "version": "f8816939737b73305a2aad092f808e0d5d9443a13356407ce8af204d4ee53d82",
-        "signature": "f8816939737b73305a2aad092f808e0d5d9443a13356407ce8af204d4ee53d82"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts": {
-        "version": "7ba4b3c2e5a96270c20c95f3914a293f91e3adb0496738b2e450767eb90b8acd",
-        "signature": "7ba4b3c2e5a96270c20c95f3914a293f91e3adb0496738b2e450767eb90b8acd"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts": {
-        "version": "216bb574654351469b377871dbeef2149f46049444a4caad46e19e2129902c42",
-        "signature": "216bb574654351469b377871dbeef2149f46049444a4caad46e19e2129902c42"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts": {
-        "version": "09a65eda4c358b2ba9cd2a1ce761dd4b9e88b2f3c52bdd9308dbdc9078efcdc5",
-        "signature": "09a65eda4c358b2ba9cd2a1ce761dd4b9e88b2f3c52bdd9308dbdc9078efcdc5"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts": {
-        "version": "d0496f533a93aca10dcd7b05918e278d0c2043ae7102629f6ae090ff4708d5a7",
-        "signature": "d0496f533a93aca10dcd7b05918e278d0c2043ae7102629f6ae090ff4708d5a7"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts": {
-        "version": "212e9b2b29ecc7c705d7d8c4381d997a2cc0bea51bf6120be664fdf8dc9bd963",
-        "signature": "212e9b2b29ecc7c705d7d8c4381d997a2cc0bea51bf6120be664fdf8dc9bd963"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts": {
-        "version": "055afe90588632398154f1f14ba6d7679ce486e9348beca5b0380f31693c4c47",
-        "signature": "055afe90588632398154f1f14ba6d7679ce486e9348beca5b0380f31693c4c47"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts": {
-        "version": "d3a34f5ed777854e0f878171feac096920fb02fafe468d1f58df03a26d232da2",
-        "signature": "d3a34f5ed777854e0f878171feac096920fb02fafe468d1f58df03a26d232da2"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts": {
-        "version": "9ab4ca668d02db34965308fd7052820741ef0c260bdf9ac15c3c841dcbe47de6",
-        "signature": "9ab4ca668d02db34965308fd7052820741ef0c260bdf9ac15c3c841dcbe47de6"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/estudiante.create.dto.ts": {
-        "version": "0afd43660eee14a19b629062b8b4df3fdecc592b21e04498d8b75630f8a344bf",
-        "signature": "041c60f7a8dce17f7e4140604f2ccaf84ceed3e7ab8d406c34136ed7e6ac3418"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/rol.create.dto.ts": {
-        "version": "2b9e62eee19e999b012b98a7827eab84acd2c6295c8fd93004289b6fca692225",
-        "signature": "df2846afa883903157ab39536e53a76f774f7639f2b7efcd1dbdc3c6fd889354"
-      },
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts": {
-        "version": "6734cd3f65aecc030efd5f16d6ed0745b58f1f463693f9926f0450103a141ea9",
-        "signature": "3367f31e369148c776fa467d650ad8cba05def425b53c4658136792677f16a42"
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts": {
+        "version": "e156ab0147a67cc4837a381866d04232f3c51d3bd8c0189f86805144dd8c3d8c",
+        "signature": "e156ab0147a67cc4837a381866d04232f3c51d3bd8c0189f86805144dd8c3d8c"
       },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts": {
         "version": "d9422bf2f3d2b4a02d901bd80370b6e58b4165e4bf488b99a3687c6eea721d27",
@@ -4017,24 +4001,7 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5751,49 +5718,154 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts": [
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts": [
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts": [
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/typeorm/index.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5804,8 +5876,6 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/typeorm/index.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
@@ -6101,118 +6171,7 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/estudiante.create.dto.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/rol.create.dto.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -7870,9 +7829,6 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts"
-      ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
@@ -9583,29 +9539,129 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts"
       ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts"
+      ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts"
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts": [
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts"
       ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts"
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/index.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts"
       ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
@@ -9888,110 +9944,6 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/estudiante.create.dto.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts"
-      ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
@@ -10068,10 +10020,6 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -10341,7 +10289,6 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/utils/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/table/tablecolumn.d.ts",
@@ -10594,12 +10541,57 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/typeorm/dist/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/typeorm/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/estudiante.entity.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
+      [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+        [
+          {
+            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+            "start": 521,
+            "length": 12,
+            "code": 2345,
+            "category": 1,
+            "messageText": {
+              "messageText": "Argument of type 'Usuario' is not assignable to parameter of type 'DeepPartial<usuarioEntity>'.",
+              "category": 1,
+              "code": 2345,
+              "next": {
+                "messageText": "Types of property 'rolId' are incompatible.",
+                "category": 1,
+                "code": 2326,
+                "next": {
+                  "messageText": "Type 'number' has no properties in common with type 'DeepPartial<rolEntity>'.",
+                  "category": 1,
+                  "code": 2559
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/constants.d.ts",
@@ -10643,26 +10635,8 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/container.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypeoptions.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/validationoptions.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/decorator/decorators.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationarguments.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationtypes.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadataargs.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/validationmetadata.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validator.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/register-decorator.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/constraintmetadata.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/metadata/metadatastorage.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/estudiante.create.dto.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/rol.create.dto.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babylon/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/connect/index.d.ts",
@@ -10676,39 +10650,7 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/jest/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/json5/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts",
-      [
-        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
-        [
-          {
-            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
-            "start": 471,
-            "length": 17,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property '_tragosRepository' does not exist on type 'AppService'."
-          },
-          {
-            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
-            "start": 496,
-            "length": 10,
-            "messageText": "Cannot find name 'nuevoTrago'.",
-            "category": 1,
-            "code": 2304
-          },
-          {
-            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
-            "start": 525,
-            "length": 17,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property '_tragosRepository' does not exist on type 'AppService'."
-          }
-        ]
-      ],
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts"
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts"
     ]
   },
   "version": "3.4.3"

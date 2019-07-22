@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
 const curso_entity_1 = require("./curso.entity");
-const estudiante_entity_1 = require("./estudiante.entity");
+const usuario_entity_1 = require("./usuario.entity");
 let notasEntity = class notasEntity {
 };
 __decorate([
@@ -38,9 +38,9 @@ __decorate([
     __metadata("design:type", curso_entity_1.cursoEntity)
 ], notasEntity.prototype, "cursoId", void 0);
 __decorate([
-    typeorm_1.ManyToOne(type => estudiante_entity_1.estudianteEntity, estudiante => estudiante.notas),
-    __metadata("design:type", estudiante_entity_1.estudianteEntity)
-], notasEntity.prototype, "estudianteId", void 0);
+    typeorm_1.ManyToOne(type => usuario_entity_1.usuarioEntity, usuario => usuario.notas),
+    __metadata("design:type", usuario_entity_1.usuarioEntity)
+], notasEntity.prototype, "usuarioId", void 0);
 notasEntity = __decorate([
     typeorm_1.Entity('notas')
 ], notasEntity);

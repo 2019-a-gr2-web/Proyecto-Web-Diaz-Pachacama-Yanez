@@ -1,20 +1,19 @@
 import { Injectable } from '@nestjs/common';
-import {Estudiante} from "./interfaces/estudiante";
 import {Usuario} from "./interfaces/usuario";
+import {InjectRepository} from "@nestjs/typeorm";
+import {Repository} from "typeorm";
+import {usuarioEntity} from "./entity/usuario.entity";
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello World!';
-  }
-  crear(nuevoEstudiante: Estudiante, nuevoUsuario:Usuario): Promise<Estudiante>{
+  constructor(@InjectRepository(usuarioEntity)
+              private readonly _usuarioRepository: Repository<usuarioEntity>,){
+    }
 
-    //nuevoTrago.id = this.recnum;
-    //this.recnum++;
-    //this.bddTragos.push(nuevoTrago);
-    //return nuevoTrago;
-    const objetoEntidad = this._tragosRepository.create(nuevoTrago);
-    return this._tragosRepository.save(objetoEntidad); //promesa
+  crear( nuevoUsuario:Usuario): Promise<usuarioEntity>{
+
+    const objetoEntidad = this._usuarioRepository.create(nuevoUsuario);
+    return this._usuarioRepository.save(objetoEntidad); //promesa
   }
 
 }

@@ -10,9 +10,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
-const profesor_entity_1 = require("./profesor.entity");
 const materia_entity_1 = require("./materia.entity");
 const notas_entity_1 = require("./notas.entity");
+const usuario_entity_1 = require("./usuario.entity");
 let cursoEntity = class cursoEntity {
 };
 __decorate([
@@ -44,9 +44,9 @@ __decorate([
     __metadata("design:type", Date)
 ], cursoEntity.prototype, "fechaFin", void 0);
 __decorate([
-    typeorm_1.ManyToOne(type => profesor_entity_1.profesorEntity, profesor => profesor.cursos),
-    __metadata("design:type", profesor_entity_1.profesorEntity)
-], cursoEntity.prototype, "profesorId", void 0);
+    typeorm_1.ManyToOne(type => usuario_entity_1.usuarioEntity, usuario => usuario.cursos),
+    __metadata("design:type", usuario_entity_1.usuarioEntity)
+], cursoEntity.prototype, "usuarioId", void 0);
 __decorate([
     typeorm_1.ManyToOne(type => materia_entity_1.materiaEntity, materia => materia.cursos),
     __metadata("design:type", materia_entity_1.materiaEntity)

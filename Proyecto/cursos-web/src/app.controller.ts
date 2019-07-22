@@ -1,5 +1,9 @@
-import {Controller, Get, Res} from '@nestjs/common';
+import {Controller, Get, Post, Res,Body} from '@nestjs/common';
 import { AppService } from './app.service';
+import {Usuario} from "./interfaces/usuario";
+import {UsuarioCreateDto} from "./dto/usuario.create.dto";
+import {validate} from "class-validator";
+
 
 @Controller('/proyecto')
 export class AppController {
@@ -8,6 +12,45 @@ export class AppController {
   @Get('/registro')
   registro(@Res() res){
     res.render('registro')
+  }
+
+  @Post('registro')
+  async registrarPost(
+      @Body() usuario: Usuario,
+      @Res() res
+
+  ) {
+    usuario.rolId = Number(usuario.rolId);
+
+    let usuarioAValidar = new UsuarioCreateDto();
+
+    usuarioAValidar.nombre = usuario.nombre;
+    usuarioAValidar.direccion = usuario.direccion;
+    usuarioAValidar.telefono = usuario.telefono;
+    usuarioAValidar.email = usuario.email;
+    usuarioAValidar.password = usuario.password;
+    usuarioAValidar.rolId = usuario.rolId;
+    try {
+      const errores = await validate(usuarioAValidar);
+      console.log(errores);
+      console.log(usuarioAValidar);
+      console.log(usuario);
+      if (errores.length > 0) {
+        console.error(errores);
+        res.redirect('/registro');
+      } else {
+        const respuestaCrear = await this.appService.crear(usuario);
+        console.log('Respues: ', respuestaCrear);
+        //res.redirect('/api/traguito/lista');
+      }
+
+    } catch (e) {
+      console.error(e);
+      res.status(500);
+      res.send({mensaje: 'Error', codigo: 500});
+    }
+
+    console.log(usuario);
   }
 
   @Get('/iniciarSesion')

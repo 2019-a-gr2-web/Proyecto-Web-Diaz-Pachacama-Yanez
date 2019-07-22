@@ -11,22 +11,46 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const typeorm_1 = require("typeorm");
 const rol_entity_1 = require("./rol.entity");
-const profesor_entity_1 = require("./profesor.entity");
-const estudiante_entity_1 = require("./estudiante.entity");
+const curso_entity_1 = require("./curso.entity");
+const notas_entity_1 = require("./notas.entity");
 let usuarioEntity = class usuarioEntity {
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn(),
     __metadata("design:type", Number)
-], usuarioEntity.prototype, "idUsuario", void 0);
+], usuarioEntity.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column({
         type: 'varchar',
         length: 100,
-        name: 'user',
+        name: 'nombre',
     }),
     __metadata("design:type", String)
-], usuarioEntity.prototype, "user", void 0);
+], usuarioEntity.prototype, "nombre", void 0);
+__decorate([
+    typeorm_1.Column({
+        type: 'varchar',
+        length: 50,
+        name: 'direccion',
+    }),
+    __metadata("design:type", String)
+], usuarioEntity.prototype, "direccion", void 0);
+__decorate([
+    typeorm_1.Column({
+        type: 'varchar',
+        length: 10,
+        name: 'telefono',
+    }),
+    __metadata("design:type", String)
+], usuarioEntity.prototype, "telefono", void 0);
+__decorate([
+    typeorm_1.Column({
+        type: 'varchar',
+        length: 100,
+        name: 'email',
+    }),
+    __metadata("design:type", String)
+], usuarioEntity.prototype, "email", void 0);
 __decorate([
     typeorm_1.Column({
         type: 'varchar',
@@ -40,13 +64,13 @@ __decorate([
     __metadata("design:type", rol_entity_1.rolEntity)
 ], usuarioEntity.prototype, "rolId", void 0);
 __decorate([
-    typeorm_1.OneToMany(type => profesor_entity_1.profesorEntity, profesor => profesor.usuarioId),
+    typeorm_1.OneToMany(type => curso_entity_1.cursoEntity, curso => curso.usuarioId),
     __metadata("design:type", Array)
-], usuarioEntity.prototype, "profesores", void 0);
+], usuarioEntity.prototype, "cursos", void 0);
 __decorate([
-    typeorm_1.OneToMany(type => estudiante_entity_1.estudianteEntity, estudiante => estudiante.usuarioId),
+    typeorm_1.OneToMany(type => notas_entity_1.notasEntity, notas => notas.usuarioId),
     __metadata("design:type", Array)
-], usuarioEntity.prototype, "estudiantes", void 0);
+], usuarioEntity.prototype, "notas", void 0);
 usuarioEntity = __decorate([
     typeorm_1.Entity('usuario')
 ], usuarioEntity);

@@ -3,11 +3,23 @@ import {rolEntity} from "../entity/rol.entity";
 
 export class UsuarioCreateDto {
     @IsEmpty()
-    idUsuario:number;
+    id:number;
 
     @IsNotEmpty()
     @IsString()
-    user: string;
+    nombre: string;
+
+    @IsNotEmpty()
+    @IsString()
+    direccion: string;
+
+    @IsNotEmpty()
+    @IsString()
+    telefono: string;
+
+    @IsNotEmpty()
+    @IsString()
+    email: string;
 
     @IsNotEmpty()
     @IsString()
@@ -15,6 +27,6 @@ export class UsuarioCreateDto {
 
     @IsNumber()
     @IsNotEmpty()
-    rolId: rolEntity;
+    rolId: number;
 
 }
