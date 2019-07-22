@@ -1,4 +1,4 @@
-import {IsEmpty, IsNotEmpty, IsString, IsNumber, IsOptional} from "class-validator";
+import {IsEmpty, IsNotEmpty, IsString, IsNumber} from "class-validator";
 import {rolEntity} from "../entity/rol.entity";
 
 export class UsuarioCreateDto {
@@ -14,7 +14,7 @@ export class UsuarioCreateDto {
     password: string;
 
     @IsNumber()
-    @IsOptional()
+    @IsNotEmpty()
     rolId: rolEntity;
 
 }

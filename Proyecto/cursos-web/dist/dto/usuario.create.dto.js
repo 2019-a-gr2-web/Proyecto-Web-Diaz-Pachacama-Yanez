@@ -29,7 +29,7 @@ __decorate([
 ], UsuarioCreateDto.prototype, "password", void 0);
 __decorate([
     class_validator_1.IsNumber(),
-    class_validator_1.IsOptional(),
+    class_validator_1.IsNotEmpty(),
     __metadata("design:type", rol_entity_1.rolEntity)
 ], UsuarioCreateDto.prototype, "rolId", void 0);
 exports.UsuarioCreateDto = UsuarioCreateDto;

@@ -1065,9 +1065,17 @@
         "version": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc",
         "signature": "4b7eaf807d1e25d7488cd6b524e192284cfa7e70e759e09cdc00eaed2e4475dc"
       },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts": {
+        "version": "e156ab0147a67cc4837a381866d04232f3c51d3bd8c0189f86805144dd8c3d8c",
+        "signature": "e156ab0147a67cc4837a381866d04232f3c51d3bd8c0189f86805144dd8c3d8c"
+      },
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts": {
+        "version": "a26eaa910729fef19768b41fe3e6a0905acaa5f67ac792bbf78a5ecb022077a7",
+        "signature": "3390017d2728d67d86792e76940430164927dfde0dbe008d50de9286cc4ceead"
+      },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": {
-        "version": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
-        "signature": "d8f4cb0109c1b399d657807fd6af504d74a9300325e0fc915abdbf658b464a97"
+        "version": "e7d79cc5ca8b450f55cb619ae6a89e30d9d339728965b024a62865cc4f333ba0",
+        "signature": "4e680d42ac92b70f5e3b27d219ca0bbf31ad2e247190ff235efa8c17d95b52c3"
       },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts": {
         "version": "8e393d326eaf9782d803761e7fb8396b9fa9d9674de99f45bfe610dc265aaa4a",
@@ -2358,7 +2366,7 @@
         "signature": "df2846afa883903157ab39536e53a76f774f7639f2b7efcd1dbdc3c6fd889354"
       },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/dto/usuario.create.dto.ts": {
-        "version": "e32f2557b8cc9997bff04d69aecbdd5181d47155ebdc4d63cb0f249b6f0af7cb",
+        "version": "6734cd3f65aecc030efd5f16d6ed0745b58f1f463693f9926f0450103a141ea9",
         "signature": "3367f31e369148c776fa467d650ad8cba05def425b53c4658136792677f16a42"
       },
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/babel-types/index.d.ts": {
@@ -4009,8 +4017,18 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": [
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -10050,6 +10068,10 @@
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/util.d.ts",
         "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts": [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -10319,8 +10341,8 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/utils/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/common/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/estudiante.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/interfaces/usuario.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/schema-builder/table/tablecolumn.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/typeorm/common/objectliteral.d.ts",
@@ -10578,7 +10600,6 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/profesor.entity.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/adapters/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/core/constants.d.ts",
@@ -10622,7 +10643,6 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/multer.module.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/multer/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/platform-express/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validationerror.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation/validatoroptions.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/class-validator/validation-schema/validationschema.d.ts",
@@ -10656,7 +10676,39 @@
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/jest/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/json5/index.d.ts",
       "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
-      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts"
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts",
+      [
+        "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+        [
+          {
+            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+            "start": 471,
+            "length": 17,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property '_tragosRepository' does not exist on type 'AppService'."
+          },
+          {
+            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+            "start": 496,
+            "length": 10,
+            "messageText": "Cannot find name 'nuevoTrago'.",
+            "category": 1,
+            "code": 2304
+          },
+          {
+            "file": "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
+            "start": 525,
+            "length": 17,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property '_tragosRepository' does not exist on type 'AppService'."
+          }
+        ]
+      ],
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.controller.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.module.ts",
+      "c:/users/pamela/documents/github/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/main.ts"
     ]
   },
   "version": "3.4.3"

@@ -11,6 +11,10 @@ let AppService = class AppService {
     getHello() {
         return 'Hello World!';
     }
+    crear(nuevoEstudiante, nuevoUsuario) {
+        const objetoEntidad = this._tragosRepository.create(nuevoTrago);
+        return this._tragosRepository.save(objetoEntidad);
+    }
 };
 AppService = __decorate([
     common_1.Injectable()
