@@ -10,8 +10,8 @@
 <body>
 <div class="container">
     <form action="registro" method="post">
-        <label for="tipoUsuario">tipo de usuario</label>
-        <select name="tipoUsuario" id="tipoUsuario">
+        <label for="rolId">tipo de usuario</label>
+        <select name="rolId" id="rolId">
             <option value="1">profesor</option>
             <option value="2">estudiante</option>
         </select>
@@ -28,17 +28,32 @@
         <label for="email">email</label>
         <input type="email" id="email" name="email">
         <br>
-        <label for="usuario">usuario</label>
-        <input type="text" id="usuario" name="usuario">
-        <br>
         <label for="password">contraseña</label>
         <input type="password" id="password" name="password">
         <br>
         <label for="passwordRepetir">repita la contraseña</label>
-        <input type="password" id="passwordRepetir" name="passwordRepetir">
+        <input type="password" id="passwordRepetir" name="passwordRepetir" onchange="validar()">
         <br>
-        <button>registrarse</button>
+        <button id="buttonRegistrar" disabled >registrarse</button>
     </form>
 </div>
 </body>
+<script>
+    function validar(){
+        const contrasenia = document.getElementById("password").value;
+        const repetirContraseña = document.getElementById("passwordRepetir").value;
+        const contra = document.getElementById("passwordRepetir");
+        const buttonRegistrar = document.getElementById("buttonRegistrar");
+        if (contrasenia===repetirContraseña){
+            console.log('si ps son iguales');
+            contra.style.borderColor='green';
+            buttonRegistrar.disabled = false;
+        }else{
+
+            console.log('no ps q hago');
+            contra.style.borderColor='red';
+
+        }
+    }
+</script>
 </html>

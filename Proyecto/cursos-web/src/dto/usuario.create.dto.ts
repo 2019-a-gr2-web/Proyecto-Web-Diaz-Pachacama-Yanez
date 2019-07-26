@@ -1,5 +1,4 @@
 import {IsEmpty, IsNotEmpty, IsString, IsNumber} from "class-validator";
-import {rolEntity} from "../entity/rol.entity";
 
 export class UsuarioCreateDto {
     @IsEmpty()

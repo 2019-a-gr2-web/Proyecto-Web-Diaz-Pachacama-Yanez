@@ -48,11 +48,12 @@ let AppController = class AppController {
                 console.log(usuario);
                 if (errores.length > 0) {
                     console.error(errores);
-                    res.redirect('/registro');
+                    res.redirect('/proyecto/registro');
                 }
                 else {
                     const respuestaCrear = yield this.appService.crear(usuario);
                     console.log('Respues: ', respuestaCrear);
+                    res.redirect('/proyecto/bienvenida');
                 }
             }
             catch (e) {

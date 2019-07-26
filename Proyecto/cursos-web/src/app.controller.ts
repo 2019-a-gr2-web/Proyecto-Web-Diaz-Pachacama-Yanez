@@ -37,11 +37,11 @@ export class AppController {
       console.log(usuario);
       if (errores.length > 0) {
         console.error(errores);
-        res.redirect('/registro');
+        res.redirect('/proyecto/registro');
       } else {
         const respuestaCrear = await this.appService.crear(usuario);
         console.log('Respues: ', respuestaCrear);
-        //res.redirect('/api/traguito/lista');
+        res.redirect('/proyecto/bienvenida');
       }
 
     } catch (e) {
