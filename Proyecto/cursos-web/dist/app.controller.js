@@ -229,7 +229,8 @@ let AppController = class AppController {
     verCursoEstPost(session, registroCurso, res) {
         return __awaiter(this, void 0, void 0, function* () {
             if (session.username) {
-                registroCurso.idCurso = Number(registroCurso.idCurso);
+                registroCurso.cursoId = Number(registroCurso.cursoId);
+                registroCurso.usuarioId = Number(registroCurso.usuarioId);
                 let notasAValidar = new notas_create_dto_1.NotasCreateDto();
                 notasAValidar.cursoId = registroCurso.cursoId;
                 notasAValidar.usuarioId = registroCurso.usuarioId;
@@ -240,7 +241,7 @@ let AppController = class AppController {
                     console.log(registroCurso);
                     if (errores.length > 0) {
                         console.error(errores);
-                        res.redirect('/proyecto/verCursoEst');
+                        res.redirect('/proyecto/verCursoEst/' + registroCurso.cursoId);
                     }
                     else {
                         const respuestaCrear = yield this.appService.crearNotas(registroCurso);

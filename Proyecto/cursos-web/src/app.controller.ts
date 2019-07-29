@@ -234,35 +234,36 @@ export class AppController {
   @Post('/verCursoEstudiante')
   async verCursoEstPost(@Session() session,
               @Body() registroCurso,
-              @Res() res){
-      if(session.username){
-        registroCurso.idCurso = Number(registroCurso.idCurso);
+              @Res() res) {
+    if (session.username) {
+      registroCurso.cursoId = Number(registroCurso.cursoId);
+      registroCurso.usuarioId= Number(registroCurso.usuarioId);
 
-        let notasAValidar = new NotasCreateDto();
+      let notasAValidar = new NotasCreateDto();
 
-        notasAValidar.cursoId = registroCurso.cursoId;
-        notasAValidar.usuarioId = registroCurso.usuarioId;
-        try {
-          const errores = await validate(notasAValidar);
-          console.log(errores);
-          console.log(notasAValidar);
-          console.log(registroCurso);
-          if (errores.length > 0) {
-            console.error(errores);
-            res.redirect('/proyecto/verCursoEst');
-          } else {
-            const respuestaCrear = await this.appService.crearNotas(registroCurso);
-            console.log('Respues: ', respuestaCrear);
-            res.redirect('/proyecto/misCursos');
-          }
-
-        } catch (e) {
-          console.error(e);
-          res.status(500);
-          res.send({mensaje: 'Error', codigo: 500});
+      notasAValidar.cursoId = registroCurso.cursoId;
+      notasAValidar.usuarioId = registroCurso.usuarioId;
+      try {
+        const errores = await validate(notasAValidar);
+        console.log(errores);
+        console.log(notasAValidar);
+        console.log(registroCurso);
+        if (errores.length > 0) {
+          console.error(errores);
+          res.redirect('/proyecto/verCursoEst/'+registroCurso.cursoId);
+        } else {
+          const respuestaCrear = await this.appService.crearNotas(registroCurso);
+          console.log('Respues: ', respuestaCrear);
+          res.redirect('/proyecto/misCursos');
         }
-      }else{
-            res.redirect('iniciarSesion');
+
+      } catch (e) {
+        console.error(e);
+        res.status(500);
+        res.send({mensaje: 'Error', codigo: 500});
       }
+    } else {
+      res.redirect('iniciarSesion');
+    }
   }
 }
