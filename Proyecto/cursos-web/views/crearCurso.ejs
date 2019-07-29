@@ -1,0 +1,36 @@
+<% const nombreUsuario = nombre;%>
+<%- include('menuProfesor', {username: nombreUsuario})%>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>proyecto</title>
+</head>
+<body>
+<div class="container">
+    <form action="crearCurso" method="post">
+        <label for="nombreCurso">nombre del curso</label>
+        <input type="text" id="nombreCurso" name="nombreCurso">
+        <br>
+        <label for="fechaInicio">fecha de inicio</label>
+        <input type="date" id="fechaInicio" name="fechaInicio">
+        <br>
+        <label for="fechaFin">fecha de fin</label>
+        <input type="date" id="fechaFin" name="fechaFin">
+        <br>
+        <label for="materiaId">materia</label>
+        <select name="materiaId" id="materiaId">
+            <%arrayMateria.forEach((materia)=>{%>
+            <option value=<%=materia.idMateria%>><%=materia.nombreMateria%></option>
+            <%})%>
+        </select>
+        <br>
+        <button>crear</button>
+        <a href="bienvenida"><button type="button">cancelar</button></a>
+    </form>
+</div>
+</body>
+</html>

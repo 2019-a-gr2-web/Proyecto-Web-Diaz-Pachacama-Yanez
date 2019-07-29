@@ -16,19 +16,51 @@ const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const typeorm_2 = require("typeorm");
 const usuario_entity_1 = require("./entity/usuario.entity");
+const materia_entity_1 = require("./entity/materia.entity");
+const curso_entity_1 = require("./entity/curso.entity");
+const notas_entity_1 = require("./entity/notas.entity");
 let AppService = class AppService {
-    constructor(_usuarioRepository) {
+    constructor(_usuarioRepository, _materiaRepository, _cursoRepository, _notasRepository) {
         this._usuarioRepository = _usuarioRepository;
+        this._materiaRepository = _materiaRepository;
+        this._cursoRepository = _cursoRepository;
+        this._notasRepository = _notasRepository;
     }
     crear(nuevoUsuario) {
         const objetoEntidad = this._usuarioRepository.create(nuevoUsuario);
         return this._usuarioRepository.save(objetoEntidad);
     }
+    crearCurso(nuevoCurso) {
+        const objetoEntidad = this._cursoRepository.create(nuevoCurso);
+        return this._cursoRepository.save(objetoEntidad);
+    }
+    crearNotas(nuevaNota) {
+        const objetoEntidad = this._notasRepository.create(nuevaNota);
+        return this._notasRepository.save(objetoEntidad);
+    }
+    buscar(parametrosBusqueda) {
+        return this._usuarioRepository.find(parametrosBusqueda);
+    }
+    buscarMateria(parametrosBusqueda) {
+        return this._materiaRepository.find(parametrosBusqueda);
+    }
+    buscarCurso(parametrosBusqueda) {
+        return this._cursoRepository.find(parametrosBusqueda);
+    }
+    buscarNotas(parametrosBusqueda) {
+        return this._notasRepository.find(parametrosBusqueda);
+    }
 };
 AppService = __decorate([
     common_1.Injectable(),
     __param(0, typeorm_1.InjectRepository(usuario_entity_1.usuarioEntity)),
-    __metadata("design:paramtypes", [typeorm_2.Repository])
+    __param(1, typeorm_1.InjectRepository(materia_entity_1.materiaEntity)),
+    __param(2, typeorm_1.InjectRepository(curso_entity_1.cursoEntity)),
+    __param(3, typeorm_1.InjectRepository(notas_entity_1.notasEntity)),
+    __metadata("design:paramtypes", [typeorm_2.Repository,
+        typeorm_2.Repository,
+        typeorm_2.Repository,
+        typeorm_2.Repository])
 ], AppService);
 exports.AppService = AppService;
 //# sourceMappingURL=app.service.js.map

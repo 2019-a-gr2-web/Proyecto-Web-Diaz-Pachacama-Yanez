@@ -1,4 +1,5 @@
 <% const nombreUsuario = nombre;%>
+<% const idUsuario = id;%>
 <%- include('menu', {username: nombreUsuario})%>
 <!doctype html>
 <html lang="es">
@@ -13,15 +14,23 @@
 <table>
     <tr>
         <th>curso</th>
+        <th>fecha inicio</th>
+        <th>fecha fin</th>
         <th>materia</th>
-        <th>opciones</th>
+        <th>accion</th>
     </tr>
     <%arrayCurso.forEach((curso)=>{%>
     <tr>
         <td><%=curso.nombreCurso%></td>
+        <td><%=curso.fechaInicio%></td>
+        <td><%=curso.fechaFin%></td>
         <td><%=curso.materiaId.nombreMateria%></td>
         <td>
-            <a href="verCursoEst/<%=curso.idCurso%>"><button>ver</button></a>
+            <form action="/proyecto/verCursoEstudiante" method="post">
+                <input type="hidden" name="cursoId" value="<%=curso.idCurso%>"/>
+                <input type="hidden" name="usuarioId" value="<%=idUsuario%>"/>
+                <button>registrarse</button>
+            </form>
         </td>
     </tr>
     <%})%>
