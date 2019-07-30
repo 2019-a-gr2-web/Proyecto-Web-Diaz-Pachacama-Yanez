@@ -1,4 +1,5 @@
-<%- include('menu')%>
+<% const nombreUsuario = nombre;%>
+<%- include('menu', {username: nombreUsuario})%>
 <!doctype html>
 <html lang="es">
 <head>
@@ -9,6 +10,19 @@
     <title>Proyecto</title>
 </head>
 <body>
-
+<table>
+    <tr>
+        <th>curso</th>
+        <th>calificacion</th>
+        <th>observacion</th>
+    </tr>
+    <%arrayNotas.forEach((notas)=>{%>
+    <tr>
+        <td><%=notas.cursoId.nombreCurso%></td>
+        <td><%=notas.calificaciones%></td>
+        <td><%=notas.observaciones%></td>
+    </tr>
+    <%})%>
+</table>
 </body>
 </html>

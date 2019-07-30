@@ -29,6 +29,8 @@
             <form action="/proyecto/verCursoEstudiante" method="post">
                 <input type="hidden" name="cursoId" value="<%=curso.idCurso%>"/>
                 <input type="hidden" name="usuarioId" value="<%=idUsuario%>"/>
+                <input type="hidden" name="calificaciones" value="0"/>
+                <input type="hidden" name="observaciones" value="NULL"/>
                 <button>registrarse</button>
             </form>
         </td>

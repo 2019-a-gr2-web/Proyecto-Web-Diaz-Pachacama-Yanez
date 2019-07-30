@@ -12,11 +12,14 @@ export declare class AppController {
     bienvenida(session: any, res: any): void;
     crearCurso(session: any, res: any): Promise<void>;
     crearCursoPost(curso: Curso, session: any, res: any): Promise<void>;
-    buscarCursos(session: any, res: any): void;
     verCurso(session: any, param: any, res: any): Promise<void>;
-    misCursos(session: any, res: any): void;
     administrarCurso(session: any, res: any): Promise<void>;
     cursosDisponibles(session: any, res: any): Promise<void>;
     verCursoEst(session: any, param: any, res: any): Promise<void>;
     verCursoEstPost(session: any, registroCurso: any, res: any): Promise<void>;
+    misCursos(session: any, res: any): Promise<void>;
+    verCursoP(session: any, param: any, res: any): Promise<void>;
+    calificar(session: any, parametrosCalificar: any, res: any): Promise<void>;
+    busqueda(res: any, buscar: string): Promise<void>;
+    cursosDisponiblesB(res: any, session: any): void;
 }

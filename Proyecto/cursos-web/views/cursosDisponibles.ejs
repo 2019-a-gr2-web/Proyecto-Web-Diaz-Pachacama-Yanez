@@ -10,6 +10,17 @@
     <title>Proyecto</title>
 </head>
 <body>
+<form action="/proyecto/busqueda" method="post">
+    <div class="row">
+        <div class="col-sm-9">
+            <label for="buscar"></label>
+            <input class="form-control" type="text" id="buscar" name="buscar" placeholder="Busqueda">
+        </div>
+        <div class="col-sm-3">
+            <button class="btn btn-primary btn-block">Buscar</button>
+        </div>
+    </div>
+</form>
 <table>
     <tr>
         <th>curso</th>
@@ -21,7 +32,7 @@
         <td><%=curso.nombreCurso%></td>
         <td><%=curso.materiaId.nombreMateria%></td>
         <td>
-            <a href="verCursoEst/<%=curso.idCurso%>"><button>ver</button></a>
+            <a href="/proyecto/verCursoEst/<%=curso.idCurso%>"><button>ver</button></a>
         </td>
     </tr>
     <%})%>

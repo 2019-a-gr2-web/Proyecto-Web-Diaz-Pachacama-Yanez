@@ -11,6 +11,7 @@ import {notasEntity} from "./entity/notas.entity";
 
 @Injectable()
 export class AppService {
+  bddBusquedaM:cursoEntity[]=[];
   constructor(@InjectRepository(usuarioEntity)
               private readonly _usuarioRepository: Repository<usuarioEntity>,
               @InjectRepository(materiaEntity)
@@ -58,7 +59,11 @@ export class AppService {
     return this._notasRepository.find(parametrosBusqueda);
   }
 
-
-
+  async actualizarNotass(idNotas: number, calificaciones:number,observaciones:string):Promise<notasEntity>{
+    let notasToUpdate = await this._notasRepository.findOne(idNotas);
+    notasToUpdate.calificaciones = calificaciones;
+    notasToUpdate.observaciones = observaciones;
+    return this._notasRepository.save(notasToUpdate);
+  }
 
 }

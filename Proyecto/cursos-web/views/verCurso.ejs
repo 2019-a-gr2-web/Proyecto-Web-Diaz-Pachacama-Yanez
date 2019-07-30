@@ -18,11 +18,14 @@
     </tr>
     <%arrayNotas.forEach((notas)=>{%>
     <tr>
-        <td><%=notas.usuarioId.id%></td>
+        <td><%=notas.usuarioId.nombre%></td>
         <td><%=notas.usuarioId.email%></td>
         <td>
-            <form action="calificar" method="post">
-                <input type="number" name="idUsuario"/>
+            <form action="/proyecto/calificar" method="post">
+                <input type="hidden" name="idNota" value="<%=notas.idNotas%>"/>
+                <input type="hidden" name="idCurso" value="<%=notas.cursoId.idCurso%>"/>
+                <input type="number" name="calificaciones" value="<%=notas.calificaciones%>"/>
+                <input type="text" name="observaciones" placeholder="observacion" value="<%=notas.observaciones%>"/>
                 <button>calificar</button>
             </form>
         </td>

@@ -26,6 +26,7 @@ const usuario_create_dto_1 = require("./dto/usuario.create.dto");
 const curso_create_dto_1 = require("./dto/curso.create.dto");
 const class_validator_1 = require("class-validator");
 const notas_create_dto_1 = require("./dto/notas.create.dto");
+const notas_update_dto_1 = require("./dto/notas.update.dto");
 let AppController = class AppController {
     constructor(appService) {
         this.appService = appService;
@@ -71,9 +72,9 @@ let AppController = class AppController {
     }
     iniciarSesionPost(usuario, session, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const arregloUsuario = yield this.appService.buscar({ relations: ["rolId"] });
+            const arregloUsuario = yield this.appService.buscar({ relations: ["rolId"], where: { rolId: { idRol: usuario.tipoUsuario }, email: usuario.usuario, password: usuario.password } });
             arregloUsuario.forEach((datosUsuario) => {
-                if (usuario.tipoUsuario == datosUsuario.rolId.idRol && usuario.usuario == datosUsuario.email && usuario.password == datosUsuario.password) {
+                if (datosUsuario.nombre) {
                     session.username = datosUsuario.nombre;
                     session.rol = datosUsuario.rolId.idRol;
                     session.userId = datosUsuario.id;
@@ -83,10 +84,10 @@ let AppController = class AppController {
                 }
             });
             if (session.username === 'undefined') {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
             else {
-                res.redirect('bienvenida');
+                res.redirect('/proyecto/bienvenida');
             }
         });
     }
@@ -94,7 +95,7 @@ let AppController = class AppController {
         session.username = undefined;
         session.rol = undefined;
         session.destroy();
-        res.redirect('iniciarSesion');
+        res.redirect('/proyecto/iniciarSesion');
     }
     bienvenida(session, res) {
         if (session.username) {
@@ -103,7 +104,7 @@ let AppController = class AppController {
             });
         }
         else {
-            res.redirect('iniciarSesion');
+            res.redirect('/proyecto/iniciarSesion');
         }
     }
     crearCurso(session, res) {
@@ -115,7 +116,7 @@ let AppController = class AppController {
                 });
             }
             else {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
         });
     }
@@ -154,16 +155,6 @@ let AppController = class AppController {
             console.log(curso);
         });
     }
-    buscarCursos(session, res) {
-        if (session.username) {
-            res.render('buscarCursos', {
-                nombre: session.username
-            });
-        }
-        else {
-            res.redirect('iniciarSesion');
-        }
-    }
     verCurso(session, param, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const arregloNotas = yield this.appService.buscar({ relations: ["cursoId", "usuarioId"], where: { cursoId: { idCurso: param.idCurso } } });
@@ -173,30 +164,20 @@ let AppController = class AppController {
                 });
             }
             else {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
         });
     }
-    misCursos(session, res) {
-        if (session.username) {
-            res.render('misCursos', {
-                nombre: session.username
-            });
-        }
-        else {
-            res.redirect('iniciarSesion');
-        }
-    }
     administrarCurso(session, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const arregloCurso = yield this.appService.buscarCurso({ relations: ["materiaId", "usuarioId"], where: { usuarioId: { id: session.username } } });
+            const arregloCurso = yield this.appService.buscarCurso({ relations: ["materiaId", "usuarioId"], where: { usuarioId: { id: session.userId } } });
             if (session.username) {
                 res.render('administrarCurso', {
                     nombre: session.username, arrayCurso: arregloCurso
                 });
             }
             else {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
         });
     }
@@ -209,7 +190,7 @@ let AppController = class AppController {
                 });
             }
             else {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
         });
     }
@@ -222,7 +203,7 @@ let AppController = class AppController {
                 });
             }
             else {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
         });
     }
@@ -256,9 +237,95 @@ let AppController = class AppController {
                 }
             }
             else {
-                res.redirect('iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion');
             }
         });
+    }
+    misCursos(session, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const arregloNotas = yield this.appService.buscarNotas({ relations: ["usuarioId", "cursoId"], where: { usuarioId: { id: session.userId } } });
+            if (session.username) {
+                res.render('misCursos', {
+                    nombre: session.username, arrayNotas: arregloNotas
+                });
+            }
+            else {
+                res.redirect('/proyecto/iniciarSesion');
+            }
+        });
+    }
+    verCursoP(session, param, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const arregloNotas = yield this.appService.buscarNotas({ relations: ["cursoId", "usuarioId"], where: { cursoId: { idCurso: param.idCurso } } });
+            if (session.username) {
+                res.render('verCurso', {
+                    nombre: session.username, id: session.userId, arrayNotas: arregloNotas
+                });
+            }
+            else {
+                res.redirect('/proyecto/iniciarSesion');
+            }
+        });
+    }
+    calificar(session, parametrosCalificar, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (session.username) {
+                parametrosCalificar.idCurso = Number(parametrosCalificar.idCurso);
+                parametrosCalificar.idNota = Number(parametrosCalificar.idNota);
+                parametrosCalificar.calificaciones = Number(parametrosCalificar.calificaciones);
+                let notasAValidar = new notas_update_dto_1.NotasUpdateDto();
+                notasAValidar.idNotas = parametrosCalificar.idNota;
+                notasAValidar.calificaciones = parametrosCalificar.calificaciones;
+                notasAValidar.observaciones = parametrosCalificar.observaciones;
+                try {
+                    const errores = yield class_validator_1.validate(notasAValidar);
+                    console.log(errores);
+                    console.log(notasAValidar);
+                    console.log(parametrosCalificar);
+                    if (errores.length > 0) {
+                        console.error(errores);
+                        res.redirect('/proyecto/verCursoP/' + parametrosCalificar.idCurso);
+                    }
+                    else {
+                        const respuestaCrear = yield this.appService.actualizarNotass(parametrosCalificar.idNota, parametrosCalificar.calificaciones, parametrosCalificar.observaciones);
+                        console.log('Respues: ', respuestaCrear);
+                        res.redirect('/proyecto/verCursoP/' + parametrosCalificar.idCurso);
+                    }
+                }
+                catch (e) {
+                    console.error(e);
+                    res.status(500);
+                    res.send({ mensaje: 'Error', codigo: 500 });
+                }
+            }
+            else {
+                res.redirect('/proyecto/iniciarSesion');
+            }
+        });
+    }
+    busqueda(res, buscar) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (buscar['buscar'] === '') {
+                res.redirect('/proyecto/cursosDisponibles');
+            }
+            this.appService.bddBusquedaM.splice(0, this.appService.bddBusquedaM.length);
+            const arregloCurso = yield this.appService.buscarCurso({ relations: ["materiaId"], where: [{ nombreCurso: buscar['buscar'] }, { materiaId: { nombreMateria: buscar['buscar'] } }] });
+            arregloCurso.forEach((curso) => {
+                this.appService.bddBusquedaM.push(curso);
+            });
+            res.redirect('/proyecto/cursosDisponiblesB');
+        });
+    }
+    cursosDisponiblesB(res, session) {
+        if (session.username) {
+            const arregloCurso = this.appService.bddBusquedaM;
+            res.render('cursosDisponibles', {
+                nombre: session.username, arrayCurso: arregloCurso
+            });
+        }
+        else {
+            res.redirect('/proyecto/iniciarSesion');
+        }
     }
 };
 __decorate([
@@ -326,14 +393,6 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "crearCursoPost", null);
 __decorate([
-    common_1.Get('/buscarCursos'),
-    __param(0, common_1.Session()),
-    __param(1, common_1.Res()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "buscarCursos", null);
-__decorate([
     common_1.Get('/verCurso/:idCurso'),
     __param(0, common_1.Session()),
     __param(1, common_1.Param()),
@@ -342,14 +401,6 @@ __decorate([
     __metadata("design:paramtypes", [Object, Object, Object]),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "verCurso", null);
-__decorate([
-    common_1.Get('/misCursos'),
-    __param(0, common_1.Session()),
-    __param(1, common_1.Res()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "misCursos", null);
 __decorate([
     common_1.Get('/administrarCurso'),
     __param(0, common_1.Session()),
@@ -384,6 +435,46 @@ __decorate([
     __metadata("design:paramtypes", [Object, Object, Object]),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "verCursoEstPost", null);
+__decorate([
+    common_1.Get('/misCursos'),
+    __param(0, common_1.Session()),
+    __param(1, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "misCursos", null);
+__decorate([
+    common_1.Get('/verCursoP/:idCurso'),
+    __param(0, common_1.Session()),
+    __param(1, common_1.Param()),
+    __param(2, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object, Object]),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "verCursoP", null);
+__decorate([
+    common_1.Post('/calificar'),
+    __param(0, common_1.Session()),
+    __param(1, common_1.Body()),
+    __param(2, common_1.Res()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object, Object]),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "calificar", null);
+__decorate([
+    common_1.Post('/busqueda'),
+    __param(0, common_1.Res()), __param(1, common_1.Body()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, String]),
+    __metadata("design:returntype", Promise)
+], AppController.prototype, "busqueda", null);
+__decorate([
+    common_1.Get('/cursosDisponiblesB'),
+    __param(0, common_1.Res()), __param(1, common_1.Session()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "cursosDisponiblesB", null);
 AppController = __decorate([
     common_1.Controller('/proyecto'),
     __metadata("design:paramtypes", [app_service_1.AppService])

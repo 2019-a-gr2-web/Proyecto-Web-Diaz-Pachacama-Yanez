@@ -11,6 +11,7 @@ export declare class AppService {
     private readonly _materiaRepository;
     private readonly _cursoRepository;
     private readonly _notasRepository;
+    bddBusquedaM: cursoEntity[];
     constructor(_usuarioRepository: Repository<usuarioEntity>, _materiaRepository: Repository<materiaEntity>, _cursoRepository: Repository<cursoEntity>, _notasRepository: Repository<notasEntity>);
     crear(nuevoUsuario: Usuario): Promise<usuarioEntity>;
     crearCurso(nuevoCurso: Curso): Promise<cursoEntity>;
@@ -19,4 +20,5 @@ export declare class AppService {
     buscarMateria(parametrosBusqueda?: any): Promise<materiaEntity[]>;
     buscarCurso(parametrosBusqueda?: any): Promise<cursoEntity[]>;
     buscarNotas(parametrosBusqueda?: any): Promise<notasEntity[]>;
+    actualizarNotass(idNotas: number, calificaciones: number, observaciones: string): Promise<notasEntity>;
 }
