@@ -30,6 +30,7 @@ __decorate([
         type: 'varchar',
         length: 100,
         name: 'observaciones',
+        default: 'Ninguna'
     }),
     __metadata("design:type", String)
 ], notasEntity.prototype, "observaciones", void 0);

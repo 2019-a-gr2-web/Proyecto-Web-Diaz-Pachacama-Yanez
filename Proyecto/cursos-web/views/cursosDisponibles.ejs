@@ -1,5 +1,3 @@
-<% const nombreUsuario = nombre;%>
-<%- include('menu', {username: nombreUsuario})%>
 <!doctype html>
 <html lang="es">
 <head>
@@ -7,35 +5,95 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Proyecto</title>
 </head>
+<style>
+    .barrasup {
+        text-align: center;
+        line-height: 50px;
+        height: 50px;
+    }
+    .texto{
+        border: #428bca 1px solid;
+        border-radius: 5px;
+        width: 100%;
+    }
+    #form {
+        border: #428bca 1px solid;
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 20px 20px 20px 20px;
+    }
+    button {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #barrainf {
+        margin-top: 10px;
+    }
+    tr,td,th {
+        border: #428bca 1px solid;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+    }
+    .opc{
+        padding-bottom: 10px;
+    }
+</style>
 <body>
-<form action="/proyecto/busqueda" method="post">
+<% const nombreUsuario = nombre;%>
+<%- include('menu', {username: nombreUsuario})%>
+<div class="container" id="form">
     <div class="row">
-        <div class="col-sm-9">
-            <label for="buscar"></label>
-            <input class="form-control" type="text" id="buscar" name="buscar" placeholder="Busqueda">
+        <div class="col-lg-12">
+            <h1>Cursos Disponibles</h1>
         </div>
+    </div>
+    <% if (arrayCurso.length === 0) {%>
+        <p>No existen cursos creados</p>
+    <% } else { %>
+<form action="/proyecto/busqueda" method="post">
+    <div class="row barra">
         <div class="col-sm-3">
-            <button class="btn btn-primary btn-block">Buscar</button>
+            <label for="buscar">Buscar: </label>
+        </div>
+        <div class="col-sm-7">
+            <input class="form-control" class="texto" type="text" id="buscar" name="buscar" placeholder="Ingrese el nombre del curso">
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success"><i class="fa fa-search"></i></button>
         </div>
     </div>
 </form>
+    <br>
+    <div class="table-responsive">
 <table>
     <tr>
-        <th>curso</th>
-        <th>materia</th>
-        <th>opciones</th>
+        <th>Curso</th>
+        <th>Materia</th>
+        <th>Opciones</th>
     </tr>
     <%arrayCurso.forEach((curso)=>{%>
     <tr>
         <td><%=curso.nombreCurso%></td>
         <td><%=curso.materiaId.nombreMateria%></td>
         <td>
-            <a href="/proyecto/verCursoEst/<%=curso.idCurso%>"><button>ver</button></a>
+            <a href="/proyecto/verCursoEst/<%=curso.idCurso%>"><button type="button" class="btn btn-primary">Ver Detalles</button></a>
         </td>
     </tr>
     <%})%>
 </table>
+    </div>
+    <% } %>
+</div>
 </body>
 </html>

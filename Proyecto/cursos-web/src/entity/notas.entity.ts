@@ -18,6 +18,7 @@ export class notasEntity {
         type: 'varchar',
         length: 100,
         name: 'observaciones',
+        default: 'Ninguna'
     })
     observaciones: string;
 

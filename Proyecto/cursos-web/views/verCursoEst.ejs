@@ -1,6 +1,4 @@
-<% const nombreUsuario = nombre;%>
-<% const idUsuario = id;%>
-<%- include('menu', {username: nombreUsuario})%>
+
 <!doctype html>
 <html lang="es">
 <head>
@@ -8,16 +6,63 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Proyecto</title>
 </head>
+<style>
+    .texto{
+        border: #428bca 1px solid;
+        border-radius: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 100%;
+    }
+    .barra {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #form {
+        border: #428bca 1px solid;
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /*margin: 20px 20px 20px 20px;*/
+        margin: 20px auto;
+    }
+    button {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    tr,td,th {
+        border: #428bca 1px solid;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+    }
+</style>
 <body>
-<table>
+<% const nombreUsuario = nombre;%>
+<% const idUsuario = id;%>
+<%- include('menu', {username: nombreUsuario})%>
+<div class="container" id="form">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Inscripción en Curso</h1>
+        </div>
+    </div>
+    <div class="table-responsive">
+    <table>
     <tr>
-        <th>curso</th>
-        <th>fecha inicio</th>
-        <th>fecha fin</th>
-        <th>materia</th>
-        <th>accion</th>
+        <th>Curso</th>
+        <th>Fecha de Inicio</th>
+        <th>Fecha de Finalización</th>
+        <th>Materia</th>
+        <th>Acción</th>
     </tr>
     <%arrayCurso.forEach((curso)=>{%>
     <tr>
@@ -31,11 +76,13 @@
                 <input type="hidden" name="usuarioId" value="<%=idUsuario%>"/>
                 <input type="hidden" name="calificaciones" value="0"/>
                 <input type="hidden" name="observaciones" value="NULL"/>
-                <button>registrarse</button>
+                <button class="btn btn-success">Registrarse</button>
             </form>
         </td>
     </tr>
     <%})%>
 </table>
+</div>
+</div>
 </body>
 </html>

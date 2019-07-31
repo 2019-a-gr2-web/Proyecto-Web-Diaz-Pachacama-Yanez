@@ -2086,7 +2086,7 @@
         "signature": "2125657bf52b746d1e74fbe12cdcfc11c0577a5443731d58202df116b9335982"
       },
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts": {
-        "version": "c956ba2a815c614bfbab0cfdb20273d60ea5ed505a16e6689158cf10f45efee6",
+        "version": "9d6d77537945d4b34b2892f551196a087a163b0bc2df0f72e4acea9cd733a729",
         "signature": "fe46ea1590b8faade70ed832d85e64fd5537f9c8fec7ac25322da9a5ac98ebbe"
       },
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts": {
@@ -10601,7 +10601,6 @@
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@nestjs/typeorm/index.d.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/rol.entity.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/materia.entity.ts",
-      "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/curso.entity.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/usuario.entity.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/app.service.ts",
@@ -10686,7 +10685,8 @@
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/jest/index.d.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/json5/index.d.ts",
       "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/superagent/index.d.ts",
-      "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts"
+      "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/node_modules/@types/supertest/index.d.ts",
+      "l:/familia/documents/2019a-septimosemestre/aplicacionesweb/proyecto-web-diaz-pachacama-yanez/proyecto/cursos-web/src/entity/notas.entity.ts"
     ]
   },
   "version": "3.4.3"
