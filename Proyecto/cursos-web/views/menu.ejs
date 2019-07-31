@@ -1,6 +1,17 @@
+<style>
+    .barrasup {
+        text-align: center;
+        line-height: 50px;
+        height: 50px;
+    }
+</style>
 <div class="container">
-    <a href="/proyecto/cursosDisponibles">cursos disponibles</a>
-    <a href="/proyecto/misCursos">mis cursos</a>
-    <label for="username"><%=username%></label>
-    <a href="/proyecto/logout">cerrar sesion</a>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2 barrasup"><p> Hola, <%=username%></p></div>
+        <div class="col-sm-2 barrasup"><a href="/proyecto/cursosDisponibles"><button class="btn btn-primary">Cursos disponibles</button></a></div>
+        <div class="col-sm-2 barrasup"><a href="/proyecto/misCursos"><button class="btn btn-primary">Mis cursos</button></a></div>
+        <div class="col-sm-2 barrasup"><a href="/proyecto/logout"><button class="btn btn-secondary">Cerrar Sesión</button></a></div>
+    </div>
 </div>

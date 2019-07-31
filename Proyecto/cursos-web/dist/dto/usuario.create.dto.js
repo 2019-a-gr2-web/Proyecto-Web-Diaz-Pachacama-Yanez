@@ -29,16 +29,19 @@ __decorate([
 __decorate([
     class_validator_1.IsNotEmpty(),
     class_validator_1.IsString(),
+    class_validator_1.Length(10),
     __metadata("design:type", String)
 ], UsuarioCreateDto.prototype, "telefono", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
     class_validator_1.IsString(),
+    class_validator_1.IsEmail(),
     __metadata("design:type", String)
 ], UsuarioCreateDto.prototype, "email", void 0);
 __decorate([
     class_validator_1.IsNotEmpty(),
     class_validator_1.IsString(),
+    class_validator_1.Length(8, 20),
     __metadata("design:type", String)
 ], UsuarioCreateDto.prototype, "password", void 0);
 __decorate([

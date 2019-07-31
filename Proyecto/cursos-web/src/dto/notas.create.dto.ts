@@ -1,4 +1,4 @@
-import {IsEmpty, IsNotEmpty, IsString, IsNumber, IsOptional} from "class-validator";
+import {IsEmpty, IsNotEmpty, IsString, IsNumber, IsOptional, Min, Max} from "class-validator";
 
 export class NotasCreateDto {
     @IsEmpty()

@@ -19,40 +19,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/cursosDisponibles.ejs">
+        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="192">
+              <caret line="268" column="90" lean-forward="true" selection-start-line="268" selection-start-column="90" selection-end-line="268" selection-end-column="90" />
+              <folding>
+                <element signature="e#0#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.controller.ts">
+        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/iniciarSesion.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="325" column="32" selection-start-line="325" selection-start-column="32" selection-end-line="325" selection-end-column="32" />
+            <state relative-caret-position="48">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/bienvenida.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/menu.ejs">
+        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/verCurso.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+            <state relative-caret-position="192">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.service.ts">
+        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/administrarCurso.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="11" selection-start-line="11" selection-end-line="44" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/registro.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="60" column="11" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="60" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -65,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/.gitignore" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/entity/rol.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/entity/profesor.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/entity/materia.entity.ts" />
@@ -76,38 +97,41 @@
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/entity/usuario.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/entity/curso.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/entity/notas.entity.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/app.module.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/usuario.create.dto.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/main.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/interfaces/usuario.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/interfaces/materia.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/interfaces/curso.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/curso.create.dto.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/interfaces/notas.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/notas.create.dto.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/verCursoEst.ejs" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/administrarCurso.ejs" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/bienvenida.ejs" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/buscarCursos.ejs" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/crearCurso.ejs" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/iniciarSesion.ejs" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/menuProfesor.ejs" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/registro.ejs" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/notas.update.dto.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/verCurso.ejs" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/misCursos.ejs" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/cursosDisponibles.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/.gitignore" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/app.module.ts" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/app.service.ts" />
-        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/registro.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/usuario.create.dto.ts" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/iniciarSesion.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/sessions/NXJv3nKNpWWrnDWOfZkWKxhpE6w6dIQS.json" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/sessions/xr8t94pWeKjbdPlDZ39lZZ8vl02DtW-P.json" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/main.ts" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/menuProfesor.ejs" />
         <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/menu.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/bienvenida.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/curso.create.dto.ts" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/crearCurso.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/administrarCurso.ejs" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/dto/notas.create.dto.ts" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/src/app.controller.ts" />
+        <option value="$PROJECT_DIR$/Proyecto/cursos-web/views/verCurso.ejs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="25" />
-    <option name="y" value="5" />
-    <option name="width" value="1260" />
-    <option name="height" value="790" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
+    <option name="y" value="48" />
+    <option name="width" value="1259" />
+    <option name="height" value="650" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,14 +179,6 @@
               <item name="cursos-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Proyecto-Web-Diaz-Pachacama-Yanez" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Proyecto-Web-Diaz-Pachacama-Yanez" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto" type="462c0819:PsiDirectoryNode" />
-              <item name="cursos-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Proyecto-Web-Diaz-Pachacama-Yanez" type="b2602c69:ProjectViewProjectNode" />
@@ -231,13 +247,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101037000" />
+    <option name="totallyTimeSpent" value="121812000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="5" y="48" width="1259" height="650" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24719101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -249,25 +265,38 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3427762" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.08739837" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.407767" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/rol.create.dto.ts" />
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/estudiante.create.dto.ts" />
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/entity/profesor.entity.ts" />
@@ -287,13 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/entity/materia.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -308,33 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/entity/usuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/curso.create.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -369,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/bienvenida.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/buscarCursos.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -383,39 +371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/crearCurso.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/iniciarSesion.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/rT5IMw9Jqfh0CeXKyOb3ZDlUjnvq0Ttt.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/lpE-y42vvFe6ai4TCIAqnwpRjxUs78kD.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/YR9ywDtj89Es_5gtapMhy2qyAPaMArTn.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/menuProfesor.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/r4KORpkF4miFiM-3ojpAXOe1Xo0vl_N5.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/rT5IMw9Jqfh0CeXKyOb3ZDlUjnvq0Ttt.json" />
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/lpE-y42vvFe6ai4TCIAqnwpRjxUs78kD.json" />
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/YR9ywDtj89Es_5gtapMhy2qyAPaMArTn.json" />
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/r4KORpkF4miFiM-3ojpAXOe1Xo0vl_N5.json" />
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/entity/notas.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -423,41 +382,6 @@
           <folding>
             <element signature="e#0#74#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/registro.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/administrarCurso.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/notas.create.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/verCurso.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/usuario.create.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -482,16 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/cursosDisponibles.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -499,17 +413,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.controller.ts">
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="325" column="32" selection-start-line="325" selection-start-column="32" selection-end-line="325" selection-end-column="32" />
+        <state relative-caret-position="24">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/entity/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/usuario.create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/NXJv3nKNpWWrnDWOfZkWKxhpE6w6dIQS.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/sessions/xr8t94pWeKjbdPlDZ39lZZ8vl02DtW-P.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/menuProfesor.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/menu.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        <state relative-caret-position="93">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/curso.create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/crearCurso.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/iniciarSesion.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/bienvenida.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/dto/notas.create.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#410#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/src/app.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="268" column="90" lean-forward="true" selection-start-line="268" selection-start-column="90" selection-end-line="268" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/registro.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="60" column="11" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/administrarCurso.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" selection-start-line="11" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto/cursos-web/views/verCurso.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
         </state>
       </provider>
     </entry>

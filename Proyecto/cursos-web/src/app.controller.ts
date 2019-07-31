@@ -1,4 +1,4 @@
-import {Controller, Get, Post, Res, Body, Session, Param} from '@nestjs/common';
+import {Controller, Get, Post, Res, Body, Session, Param, Query} from '@nestjs/common';
 import { AppService } from './app.service';
 import {Usuario} from "./interfaces/usuario";
 import {Curso} from "./interfaces/curso";
@@ -14,8 +14,8 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('/registro')
-  registro(@Res() res){
-    res.render('registro')
+  registro(@Res() res, @Query() query){
+    res.render('registro', {mensaje: query.m})
   }
 
   @Post('registro')
@@ -41,11 +41,12 @@ export class AppController {
       console.log(usuario);
       if (errores.length > 0) {
         console.error(errores);
-        res.redirect('/proyecto/registro');
+        res.redirect('/proyecto/registro?m=Error-de-Registro');
       } else {
-        const respuestaCrear = await this.appService.crear(usuario);
-        console.log('Respues: ', respuestaCrear);
-        res.redirect('/proyecto/iniciarSesion');
+        await this.appService.crear(usuario);
+        // const respuestaCrear = await this.appService.crear(usuario);
+        // console.log('Respues: ', respuestaCrear);
+        res.redirect('/proyecto/iniciarSesion?m=URE');
       }
 
     } catch (e) {
@@ -58,8 +59,8 @@ export class AppController {
   }
 
   @Get('/iniciarSesion')
-  iniciarSesion(@Res() res){
-    res.render('iniciarSesion')
+  iniciarSesion(@Res() res, @Query() query){
+    res.render('iniciarSesion',{mensaje: query.m})
   }
 
   @Post('/iniciarSesion')
@@ -75,9 +76,9 @@ export class AppController {
       }else{
         session.username='undefined';
       }
-    })
+    });
     if(session.username==='undefined'){
-      res.redirect('/proyecto/iniciarSesion');
+      res.redirect('/proyecto/iniciarSesion?m=EFL');
     }else{
       res.redirect('/proyecto/bienvenida');
     }
@@ -107,11 +108,11 @@ export class AppController {
 
   @Get('/crearCurso')
   async crearCurso(@Session() session,
-                    @Res() res){
+                    @Res() res, @Query() q){
     const arregloMateria = await this.appService.buscarMateria();
     if(session.username){
       res.render('crearCurso',{
-        nombre:session.username, arrayMateria:arregloMateria});
+        nombre:session.username, arrayMateria:arregloMateria, mensaje: q.m});
     }else{
       res.redirect('/proyecto/iniciarSesion');
     }
@@ -143,7 +144,7 @@ export class AppController {
       console.log(curso);
       if (errores.length > 0) {
         console.error(errores);
-        res.redirect('/proyecto/crearCurso');
+        res.redirect('/proyecto/crearCurso?m=Error');
       } else {
         const respuestaCrear = await this.appService.crearCurso(curso);
         console.log('Respues: ', respuestaCrear);
@@ -261,11 +262,11 @@ export class AppController {
   @Get('/verCursoP/:idCurso')
   async verCursoP(@Session() session,
                     @Param() param,
-                    @Res() res){
+                    @Res() res, @Query() q){
     const arregloNotas = await this.appService.buscarNotas({relations:["cursoId","usuarioId"],where:{cursoId:{idCurso:param.idCurso}}});
     if(session.username){
       res.render('verCurso',{
-        nombre:session.username,id:session.userId,arrayNotas:arregloNotas});
+        nombre:session.username,id:session.userId,arrayNotas:arregloNotas, mensaje: q.m});
     }else{
       res.redirect('/proyecto/iniciarSesion');
     }
@@ -279,9 +280,10 @@ export class AppController {
       parametrosCalificar.idCurso = Number(parametrosCalificar.idCurso);
       parametrosCalificar.idNota = Number(parametrosCalificar.idNota);
       parametrosCalificar.calificaciones= Number(parametrosCalificar.calificaciones);
-
+      if (parametrosCalificar.calificaciones > 10 || parametrosCalificar.calificaciones < 0 ){
+        parametrosCalificar.calificaciones = undefined;
+      }
       let notasAValidar = new NotasUpdateDto();
-
       notasAValidar.idNotas =parametrosCalificar.idNota;
       notasAValidar.calificaciones = parametrosCalificar.calificaciones;
       notasAValidar.observaciones = parametrosCalificar.observaciones;
@@ -292,7 +294,7 @@ export class AppController {
         console.log(parametrosCalificar);
         if (errores.length > 0) {
           console.error(errores);
-          res.redirect('/proyecto/verCursoP/'+parametrosCalificar.idCurso);
+          res.redirect('/proyecto/verCursoP/'+parametrosCalificar.idCurso + '?m=Error');
         } else {
           const respuestaCrear = await this.appService.actualizarNotass(parametrosCalificar.idNota,parametrosCalificar.calificaciones,parametrosCalificar.observaciones);
           console.log('Respues: ', respuestaCrear);

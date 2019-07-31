@@ -4,13 +4,13 @@ import { Curso } from "./interfaces/curso";
 export declare class AppController {
     private readonly appService;
     constructor(appService: AppService);
-    registro(res: any): void;
+    registro(res: any, query: any): void;
     registrarPost(usuario: Usuario, res: any): Promise<void>;
-    iniciarSesion(res: any): void;
+    iniciarSesion(res: any, query: any): void;
     iniciarSesionPost(usuario: any, session: any, res: any): Promise<void>;
     logout(res: any, session: any): void;
     bienvenida(session: any, res: any): void;
-    crearCurso(session: any, res: any): Promise<void>;
+    crearCurso(session: any, res: any, q: any): Promise<void>;
     crearCursoPost(curso: Curso, session: any, res: any): Promise<void>;
     verCurso(session: any, param: any, res: any): Promise<void>;
     administrarCurso(session: any, res: any): Promise<void>;
@@ -18,7 +18,7 @@ export declare class AppController {
     verCursoEst(session: any, param: any, res: any): Promise<void>;
     verCursoEstPost(session: any, registroCurso: any, res: any): Promise<void>;
     misCursos(session: any, res: any): Promise<void>;
-    verCursoP(session: any, param: any, res: any): Promise<void>;
+    verCursoP(session: any, param: any, res: any, q: any): Promise<void>;
     calificar(session: any, parametrosCalificar: any, res: any): Promise<void>;
     busqueda(res: any, buscar: string): Promise<void>;
     cursosDisponiblesB(res: any, session: any): void;

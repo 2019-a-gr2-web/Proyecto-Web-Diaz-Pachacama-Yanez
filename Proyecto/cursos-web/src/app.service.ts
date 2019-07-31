@@ -23,7 +23,6 @@ export class AppService {
     }
 
   crear(nuevoUsuario:Usuario): Promise<usuarioEntity>{
-
     // @ts-ignore
     const objetoEntidad = this._usuarioRepository.create(nuevoUsuario);
     return this._usuarioRepository.save(objetoEntidad); //promesa

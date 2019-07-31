@@ -31,8 +31,8 @@ let AppController = class AppController {
     constructor(appService) {
         this.appService = appService;
     }
-    registro(res) {
-        res.render('registro');
+    registro(res, query) {
+        res.render('registro', { mensaje: query.m });
     }
     registrarPost(usuario, res) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -51,12 +51,11 @@ let AppController = class AppController {
                 console.log(usuario);
                 if (errores.length > 0) {
                     console.error(errores);
-                    res.redirect('/proyecto/registro');
+                    res.redirect('/proyecto/registro?m=Error-de-Registro');
                 }
                 else {
-                    const respuestaCrear = yield this.appService.crear(usuario);
-                    console.log('Respues: ', respuestaCrear);
-                    res.redirect('/proyecto/iniciarSesion');
+                    yield this.appService.crear(usuario);
+                    res.redirect('/proyecto/iniciarSesion?m=URE');
                 }
             }
             catch (e) {
@@ -67,8 +66,8 @@ let AppController = class AppController {
             console.log(usuario);
         });
     }
-    iniciarSesion(res) {
-        res.render('iniciarSesion');
+    iniciarSesion(res, query) {
+        res.render('iniciarSesion', { mensaje: query.m });
     }
     iniciarSesionPost(usuario, session, res) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -84,7 +83,7 @@ let AppController = class AppController {
                 }
             });
             if (session.username === 'undefined') {
-                res.redirect('/proyecto/iniciarSesion');
+                res.redirect('/proyecto/iniciarSesion?m=EFL');
             }
             else {
                 res.redirect('/proyecto/bienvenida');
@@ -107,12 +106,12 @@ let AppController = class AppController {
             res.redirect('/proyecto/iniciarSesion');
         }
     }
-    crearCurso(session, res) {
+    crearCurso(session, res, q) {
         return __awaiter(this, void 0, void 0, function* () {
             const arregloMateria = yield this.appService.buscarMateria();
             if (session.username) {
                 res.render('crearCurso', {
-                    nombre: session.username, arrayMateria: arregloMateria
+                    nombre: session.username, arrayMateria: arregloMateria, mensaje: q.m
                 });
             }
             else {
@@ -139,7 +138,7 @@ let AppController = class AppController {
                 console.log(curso);
                 if (errores.length > 0) {
                     console.error(errores);
-                    res.redirect('/proyecto/crearCurso');
+                    res.redirect('/proyecto/crearCurso?m=Error');
                 }
                 else {
                     const respuestaCrear = yield this.appService.crearCurso(curso);
@@ -254,12 +253,12 @@ let AppController = class AppController {
             }
         });
     }
-    verCursoP(session, param, res) {
+    verCursoP(session, param, res, q) {
         return __awaiter(this, void 0, void 0, function* () {
             const arregloNotas = yield this.appService.buscarNotas({ relations: ["cursoId", "usuarioId"], where: { cursoId: { idCurso: param.idCurso } } });
             if (session.username) {
                 res.render('verCurso', {
-                    nombre: session.username, id: session.userId, arrayNotas: arregloNotas
+                    nombre: session.username, id: session.userId, arrayNotas: arregloNotas, mensaje: q.m
                 });
             }
             else {
@@ -273,6 +272,9 @@ let AppController = class AppController {
                 parametrosCalificar.idCurso = Number(parametrosCalificar.idCurso);
                 parametrosCalificar.idNota = Number(parametrosCalificar.idNota);
                 parametrosCalificar.calificaciones = Number(parametrosCalificar.calificaciones);
+                if (parametrosCalificar.calificaciones > 10 || parametrosCalificar.calificaciones < 0) {
+                    parametrosCalificar.calificaciones = undefined;
+                }
                 let notasAValidar = new notas_update_dto_1.NotasUpdateDto();
                 notasAValidar.idNotas = parametrosCalificar.idNota;
                 notasAValidar.calificaciones = parametrosCalificar.calificaciones;
@@ -284,7 +286,7 @@ let AppController = class AppController {
                     console.log(parametrosCalificar);
                     if (errores.length > 0) {
                         console.error(errores);
-                        res.redirect('/proyecto/verCursoP/' + parametrosCalificar.idCurso);
+                        res.redirect('/proyecto/verCursoP/' + parametrosCalificar.idCurso + '?m=Error');
                     }
                     else {
                         const respuestaCrear = yield this.appService.actualizarNotass(parametrosCalificar.idNota, parametrosCalificar.calificaciones, parametrosCalificar.observaciones);
@@ -330,9 +332,9 @@ let AppController = class AppController {
 };
 __decorate([
     common_1.Get('/registro'),
-    __param(0, common_1.Res()),
+    __param(0, common_1.Res()), __param(1, common_1.Query()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "registro", null);
 __decorate([
@@ -345,9 +347,9 @@ __decorate([
 ], AppController.prototype, "registrarPost", null);
 __decorate([
     common_1.Get('/iniciarSesion'),
-    __param(0, common_1.Res()),
+    __param(0, common_1.Res()), __param(1, common_1.Query()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
+    __metadata("design:paramtypes", [Object, Object]),
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "iniciarSesion", null);
 __decorate([
@@ -378,9 +380,9 @@ __decorate([
 __decorate([
     common_1.Get('/crearCurso'),
     __param(0, common_1.Session()),
-    __param(1, common_1.Res()),
+    __param(1, common_1.Res()), __param(2, common_1.Query()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:paramtypes", [Object, Object, Object]),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "crearCurso", null);
 __decorate([
@@ -447,9 +449,9 @@ __decorate([
     common_1.Get('/verCursoP/:idCurso'),
     __param(0, common_1.Session()),
     __param(1, common_1.Param()),
-    __param(2, common_1.Res()),
+    __param(2, common_1.Res()), __param(3, common_1.Query()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object, Object]),
+    __metadata("design:paramtypes", [Object, Object, Object, Object]),
     __metadata("design:returntype", Promise)
 ], AppController.prototype, "verCursoP", null);
 __decorate([
